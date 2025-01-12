@@ -68,14 +68,14 @@
     <string name="unavailable">Unavailable</string>
     <string name="use_overlay_fs">Use OverlayFS (Beta)</string>
     <string name="use_overlay_fs_summary">Toggle between using OverlayFS over Magic Mount for KernelSU Next\'s mount system.</string>
-    <string name="reboot_required">Reboot Required</string>
-    <string name="reboot_message">Changes will take effect after rebooting the system. Would you like to reboot now?</string>
+    <string name="reboot_required">Reboot required</string>
+    <string name="reboot_message">The changes will take effect after the system restart. Do you want to reboot now?</string>
     <string name="module_restore">Restore module</string>
     <string name="module_restore_message">Restore modules from recent backup.</string>
     <string name="module_backup">Backup module</string>
     <string name="module_backup_message">Backup currently installed modules.</string>
     <string name="warning">Warning</string>
-    <string name="warning_message">This feature is still in beta and under development. Please ensure you backup your modules before proceeding. Use this feature only if you understand the potential risks. Proceed with caution.</string>
+    <string name="warning_message">This feature is still in beta and under development. Please ensure you backup your modules before proceeding. Only use this feature if you understand the potential risks. Proceed with caution.</string>
     <string name="proceed">Proceed</string>
     <string name="cancel">Cancel</string>
     <string name="later">Later</string>
@@ -147,7 +147,7 @@
     <string name="action">Action</string>
     <string name="open">Open</string>
     <string name="enable_web_debugging">Enable WebView debugging</string>
-    <string name="enable_web_debugging_summary">Can be used to debug WebUI, please enable only when needed.</string>
+    <string name="enable_web_debugging_summary">Can be used to debug WebUI. Please enable only when needed.</string>
     <string name="direct_install">Direct install (Recommended)</string>
     <string name="select_file">Select a file</string>
     <string name="install_inactive_slot">Install to inactive slot (After OTA)</string>
