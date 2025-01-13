@@ -4,7 +4,7 @@
     <string name="issue_report_body">发现错误或者有改进建议？</string>
     <string name="issue_report_body_2">快向我们报告吧！</string>
     <string name="issue_report_github">在 GitHub 报告</string>
-    <string name="issue_report_telegram">通过 Telegram 联系</string>
+    <string name="issue_report_telegram">在 Telegram 联系</string>
     <string name="issue_report_github_link">https://github.com/rifsxd/KernelSU-Next/issues</string>
     <string name="issue_report_telegram_link">https://t.me/ksunext</string>
     <string name="confirm">确认</string>
@@ -32,8 +32,8 @@
     <string name="module_empty">没有安装模块</string>
     <string name="module">模块</string>
     <string name="module_install_prompt_with_name">是否要继续安装模块 %1$s ？</string>
-    <string name="module_sort_a_to_z">按 A - Z 排序</string>
-    <string name="module_sort_z_to_a">按 Z - A 排序</string>
+    <string name="module_sort_a_to_z">按 A－Z 排序</string>
+    <string name="module_sort_z_to_a">按 Z－A 排序</string>
     <string name="uninstall">卸载</string>
     <string name="restore">恢复</string>
     <string name="module_install">安装</string>
@@ -105,7 +105,7 @@
     <string name="failed_to_update_app_profile">为 %s 更新 App Profile 失败</string>
     <string name="require_kernel_version">当前 KernelSU Next 版本 %d 过低，管理器无法正常工作，请升级内核 KernelSU Next 版本至 %d 或以上！</string>
     <string name="settings_umount_modules_default">默认卸载模块</string>
-    <string name="settings_umount_modules_default_summary">App Profile 中\"卸载模块\"的全局默认值，如果启用，将会为没有设置 Profile 的应用移除所有模块针对系统的修改。</string>
+    <string name="settings_umount_modules_default_summary">App Profile 中“卸载模块”的全局默认值，如果启用，将会为没有设置 Profile 的应用移除所有模块针对系统的修改。</string>
     <string name="profile_umount_modules_summary">启用后将允许 KernelSU Next 为本应用还原被模块修改过的文件。</string>
     <string name="profile_selinux_domain">域</string>
     <string name="profile_selinux_rules">规则</string>
@@ -123,8 +123,8 @@
     <string name="settings_profile_template_summary">管理本地和在线的 App Profile 模版</string>
     <string name="app_profile_template_create">创建模版</string>
     <string name="app_profile_template_edit">编辑模版</string>
-    <string name="app_profile_template_id">模板 id</string>
-    <string name="app_profile_template_id_invalid">模板 id 不合法</string>
+    <string name="app_profile_template_id">模板 ID</string>
+    <string name="app_profile_template_id_invalid">模板 ID 不合规</string>
     <string name="app_profile_template_name">名字</string>
     <string name="app_profile_template_description">描述</string>
     <string name="app_profile_template_save">保存</string>
@@ -147,7 +147,7 @@
     <string name="action">执行</string>
     <string name="open">打开</string>
     <string name="enable_web_debugging">启用 WebView 调试</string>
-    <string name="enable_web_debugging_summary">可用于调试 WebUI ，请仅在需要时启用。</string>
+    <string name="enable_web_debugging_summary">可用于调试 WebUI，请仅在需要时启用。</string>
     <string name="direct_install">直接安装（推荐）</string>
     <string name="select_file">选择一个文件</string>
     <string name="install_inactive_slot">安装到未使用的槽位（OTA 后）</string>
