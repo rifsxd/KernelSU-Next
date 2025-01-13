@@ -286,10 +286,10 @@ fun SettingScreen(navigator: DestinationsNavigator) {
                 leadingContent = {
                     Icon(
                         Icons.Filled.BugReport,
-                        stringResource(id = R.string.send_log)
+                        stringResource(id = R.string.export_log)
                     )
                 },
-                headlineContent = { Text(stringResource(id = R.string.send_log)) },
+                headlineContent = { Text(stringResource(id = R.string.export_log)) },
                 modifier = Modifier.clickable {
                     showBottomsheet = true
                 }
