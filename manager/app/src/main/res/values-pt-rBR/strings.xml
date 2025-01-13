@@ -58,7 +58,7 @@
     <string name="refresh">Atualizar</string>
     <string name="show_system_apps">Mostrar apps do sistema</string>
     <string name="hide_system_apps">Ocultar apps do sistema</string>
-    <string name="send_log">Reportar registros</string>
+    <string name="export_log">Exportar registros</string>
     <string name="safe_mode">Modo de segurança</string>
     <string name="reboot_to_apply">Reinicie para entrar em vigor</string>
     <string name="module_magisk_conflict">Os módulos estão indisponíveis devido a um conflito com Magisk!</string>
@@ -170,4 +170,5 @@
     <string name="selected_lkm">LKM selecionado: %s</string>
     <string name="save_log">Salvar registros</string>
     <string name="log_saved">Registros salvos</string>
+    <string name="send_log">Reportar registros</string>
 </resources>
