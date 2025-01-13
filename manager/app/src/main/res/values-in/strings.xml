@@ -58,7 +58,7 @@
     <string name="refresh">Muat ulang</string>
     <string name="show_system_apps">Tampilkan aplikasi sistem</string>
     <string name="hide_system_apps">Sembunyikan aplikasi sistem</string>
-    <string name="send_log">Kirim Log</string>
+    <string name="export_log">Ekspor Log</string>
     <string name="safe_mode">Mode aman</string>
     <string name="reboot_to_apply">Reboot agar berfungsi</string>
     <string name="module_magisk_conflict">Konflik dengan Magisk, fungsi modul ditiadakan!</string>
@@ -156,4 +156,5 @@
     <string name="selected_lkm">LKM dipilih: %s</string>
     <string name="save_log">Simpan Log</string>
     <string name="log_saved">Log disimpan</string>
+    <string name="send_log">Kirim Log</string>
 </resources>
