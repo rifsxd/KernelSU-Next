@@ -58,7 +58,7 @@
     <string name="refresh">새로 고침</string>
     <string name="show_system_apps">시스템 앱 보이기</string>
     <string name="hide_system_apps">시스템 앱 숨기기</string>
-    <string name="send_log">로그 보내기</string>
+    <string name="export_log">로그 내보내기</string>
     <string name="safe_mode">안전 모드</string>
     <string name="reboot_to_apply">다시 시작하여 변경 사항 적용</string>
     <string name="module_magisk_conflict">Magisk와의 충돌로 모듈을 사용할 수 없습니다.!</string>
@@ -165,4 +165,5 @@
     <string name="selected_lkm">선택된 LKM: %s</string>
     <string name="save_log">로그 저장</string>
     <string name="log_saved">로그 저장됨</string>
+    <string name="send_log">로그 보내기</string>
 </resources>
