@@ -58,7 +58,7 @@
     <string name="refresh">Refresh</string>
     <string name="show_system_apps">Show system apps</string>
     <string name="hide_system_apps">Hide system apps</string>
-    <string name="send_log">Send logs</string>
+    <string name="export_log">Export logs</string>
     <string name="safe_mode">Safe mode</string>
     <string name="reboot_to_apply">Reboot to take effect</string>
     <string name="module_magisk_conflict">Modules are unavailable due to a conflict with Magisk!</string>
@@ -170,4 +170,5 @@
     <string name="selected_lkm">Selected LKM: %s</string>
     <string name="save_log">Save logs</string>
     <string name="log_saved">Logs saved</string>
+    <string name="send_log">Share logs</string>
 </resources>
