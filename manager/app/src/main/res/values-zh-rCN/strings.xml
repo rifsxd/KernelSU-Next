@@ -13,10 +13,10 @@
     <string name="home_not_installed">未安装</string>
     <string name="home_click_to_install">点击安装</string>
     <string name="home_working">工作中</string>
-    <string name="home_working_version">版本: %d</string>
-    <string name="home_superuser_count">超级用户数: %d</string>
-    <string name="home_module_count">模块数: %d</string>
-    <string name="home_failure">内核中未找到 KernelSU Next v2 签名！ [ !KSU_NEXT || != size/hash ]</string>
+    <string name="home_working_version">版本：%d</string>
+    <string name="home_superuser_count">超级用户数：%d</string>
+    <string name="home_module_count">模块数：%d</string>
+    <string name="home_failure">内核中未找到 KernelSU Next V2 签名！ [ !KSU_NEXT || != size/hash ]</string>
     <string name="home_failure_tip">请让你的内核开发人员集成 KernelSU Next！</string>
     <string name="home_kernel">内核版本</string>
     <string name="home_android">安卓版本</string>
@@ -27,8 +27,8 @@
     <string name="selinux_status_permissive">宽容模式</string>
     <string name="selinux_status_unknown">未知</string>
     <string name="superuser">超级用户</string>
-    <string name="module_failed_to_enable">无法启用模块: %s</string>
-    <string name="module_failed_to_disable">无法禁用模块: %s</string>
+    <string name="module_failed_to_enable">无法启用模块：%s</string>
+    <string name="module_failed_to_disable">无法禁用模块：%s</string>
     <string name="module_empty">没有安装模块</string>
     <string name="module">模块</string>
     <string name="module_install_prompt_with_name">是否要继续安装模块 %1$s ？</string>
@@ -48,17 +48,17 @@
     <string name="about">关于</string>
     <string name="module_uninstall_confirm">确定要卸载模块 %s 吗？</string>
     <string name="module_uninstall_success">%s 已卸载</string>
-    <string name="module_uninstall_failed">卸载失败: %s</string>
+    <string name="module_uninstall_failed">卸载失败：%s</string>
     <string name="module_restore_confirm">你确定要恢复模块 %s 吗？</string>
     <string name="module_restore_success">%s 已恢复</string>
-    <string name="module_restore_failed">恢复失败: %s</string>
+    <string name="module_restore_failed">恢复失败：%s</string>
     <string name="module_version">版本</string>
     <string name="module_author">作者</string>
     <string name="module_overlay_fs_not_available">OverlayFS 被内核禁用，模块不可用。</string>
     <string name="refresh">刷新</string>
     <string name="show_system_apps">显示系统应用</string>
     <string name="hide_system_apps">隐藏系统应用</string>
-    <string name="send_log">发送日志</string>
+    <string name="export_log">导出日志</string>
     <string name="safe_mode">安全模式</string>
     <string name="reboot_to_apply">重启生效</string>
     <string name="module_magisk_conflict">由于与 Magisk 冲突，模块不可用。</string>
@@ -117,7 +117,7 @@
     <string name="close">关闭</string>
     <string name="force_stop_app">强制停止</string>
     <string name="restart_app">重新启动</string>
-    <string name="failed_to_update_sepolicy">为：%s 更新 SELinux 规则失败</string>
+    <string name="failed_to_update_sepolicy">为 %s 更新 SELinux 规则失败</string>
     <string name="module_changelog">更新日志</string>
     <string name="settings_profile_template">App Profile 模板</string>
     <string name="settings_profile_template_summary">管理本地和在线的 App Profile 模版</string>
@@ -163,11 +163,12 @@
     <string name="settings_restore_stock_image">恢复原厂镜像</string>
     <string name="settings_uninstall_temporary_message">临时卸载 KernelSU Next，下次重启后恢复。</string>
     <string name="settings_uninstall_permanent_message">彻底移除 KernelSU Next 和所有模块。</string>
-    <string name="settings_restore_stock_image_message">恢复原厂镜像，一般在 OTA 前使用；如需卸载请使用“永久卸载”。</string>
+    <string name="settings_restore_stock_image_message">恢复原厂镜像，一般在 OTA 前使用；如需卸载请使用“完全卸载”。</string>
     <string name="flashing">刷写中</string>
     <string name="flash_success">刷写成功</string>
     <string name="flash_failed">刷写失败</string>
-    <string name="selected_lkm">选择的 LKM: %s</string>
+    <string name="selected_lkm">选择的 LKM：%s</string>
     <string name="save_log">保存日志</string>
     <string name="log_saved">日志已保存</string>
+    <string name="send_log">分享日志</string>
 </resources>
