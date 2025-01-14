@@ -66,7 +66,7 @@
     <string name="home_magic_mount">Magic Mount</string>
     <string name="home_overlayfs_mount">OverlayFS</string>
     <string name="unavailable">不可用</string>
-    <string name="use_overlay_fs">使用 OverlayFS（实验性）</string>
+    <string name="use_overlay_fs">使用 OverlayFS (实验性功能)</string>
     <string name="use_overlay_fs_summary">对于 KernelSU Next 的挂载系统，在使用 OverlayFS 和 Magic Mount 之间进行切换。</string>
     <string name="reboot_required">需要重启</string>
     <string name="reboot_message">更改将在重启系统后生效。您想现在重启吗？</string>
