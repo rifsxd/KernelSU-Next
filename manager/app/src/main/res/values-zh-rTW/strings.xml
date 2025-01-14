@@ -58,7 +58,7 @@
     <string name="refresh">刷新</string>
     <string name="show_system_apps">顯示系統應用</string>
     <string name="hide_system_apps">隱藏系統應用</string>
-    <string name="send_log">發送日誌</string>
+    <string name="export_log">匯出日誌</string>
     <string name="safe_mode">安全模式</string>
     <string name="reboot_to_apply">重啟生效</string>
     <string name="module_magisk_conflict">由於與 Magisk 有衝突，所有模組不可用！</string>
@@ -170,4 +170,5 @@
     <string name="selected_lkm">選擇的 LKM: %s</string>
     <string name="save_log">保存日誌</string>
     <string name="log_saved">日誌已保存</string>
+    <string name="send_log">發送日誌</string>
 </resources>
