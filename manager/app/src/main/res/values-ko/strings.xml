@@ -101,6 +101,8 @@
     <string name="require_kernel_version">현재 KernelSU Next 버전 %d이 너무 낮아 매니저가 올바르게 작동하기 어렵습니다. 버전 %d이상으로 업데이트해 주세요!</string>
     <string name="settings_umount_modules_default">기본적으로 모듈 마운트 해제</string>
     <string name="settings_umount_modules_default_summary">앱 프로파일의 \"모듈 마운트 해제\" 옵션에 대한 전역 기본값입니다. 이 옵션이 활성화되면, 프로파일이 설정되어 있지 않은 앱들에 대한 모듈의 모든 수정사항을 복구합니다.</string>
+    <string name="settings_susfs_toggle">kprobe 훅 숨기기</string>
+    <string name="settings_susfs_toggle_summary">이 설정은 ksu가 만든 kprobe 훅을 비활성화하고 대신 비-kprobe 인라인 훅을 활성화합니다. 이는 kprobe가 지원되지 않는 non-gki 커널과 동일한 구현입니다.</string>
     <string name="profile_umount_modules_summary">이 옵션이 활성화되면, 이 앱에 대한 모듈의 모든 수정사항을 복구합니다.</string>
     <string name="profile_selinux_domain">도메인</string>
     <string name="profile_selinux_rules">규칙</string>

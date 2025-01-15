@@ -1,0 +1,34 @@
+name: Build susfsd
+on:
+  push:
+    branches: [ "next" ]
+    paths:
+      - '.github/workflows/susfsd.yml'
+      - 'userspace/susfsd/**'
+  workflow_dispatch:
+  workflow_call:
+    inputs:
+      target:
+        required: true
+        type: string
+      os:
+        required: false
+        type: string
+        default: ubuntu-latest
+jobs:
+  build-susfs:
+    name: Build userspace susfsd
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    - name: Build susfsd
+      working-directory: ./userspace/susfsd
+      run: $ANDROID_NDK/ndk-build
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: susfsd-aarch64-linux-android
+        path: ./userspace/susfsd/libs
+    

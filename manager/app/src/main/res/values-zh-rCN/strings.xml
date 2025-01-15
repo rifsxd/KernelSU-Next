@@ -106,6 +106,8 @@
     <string name="require_kernel_version">当前 KernelSU Next 版本 %d 过低，管理器无法正常工作，请升级内核 KernelSU Next 版本至 %d 或以上！</string>
     <string name="settings_umount_modules_default">默认卸载模块</string>
     <string name="settings_umount_modules_default_summary">App Profile 中“卸载模块”的全局默认值，如果启用，将会为没有设置 Profile 的应用移除所有模块针对系统的修改。</string>
+    <string name="settings_susfs_toggle">隐藏kprobe钩子</string>
+    <string name="settings_susfs_toggle_summary">它禁用由ksu创建的kprobe钩子，取而代之的是启用非kprobe内联钩子，类似于不支持kprobe的non-gki内核的实现。</string>
     <string name="profile_umount_modules_summary">启用后将允许 KernelSU Next 为本应用还原被模块修改过的文件。</string>
     <string name="profile_selinux_domain">域</string>
     <string name="profile_selinux_rules">规则</string>

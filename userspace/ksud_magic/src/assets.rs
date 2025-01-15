@@ -8,6 +8,7 @@ use crate::{defs::BINARY_DIR, utils};
 pub const RESETPROP_PATH: &str = concatcp!(BINARY_DIR, "resetprop");
 pub const BUSYBOX_PATH: &str = concatcp!(BINARY_DIR, "busybox");
 pub const BOOTCTL_PATH: &str = concatcp!(BINARY_DIR, "bootctl");
+pub const SUSFSD_PATH: &str = concatcp!(BINARY_DIR, "susfsd");
 
 #[cfg(all(target_arch = "x86_64", target_os = "android"))]
 #[derive(RustEmbed)]

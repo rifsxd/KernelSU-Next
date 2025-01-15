@@ -92,6 +92,8 @@
     <string name="require_kernel_version">Versi KernelSU-Next %d terlalu rendah agar manajer berfungsi normal. Harap membarui ke versi %d atau di atasnya!</string>
     <string name="settings_umount_modules_default">Melepas Modul secara bawaan</string>
     <string name="settings_umount_modules_default_summary">Menggunakan \"Umount Modul\" secara universal pada Profil Aplikasi. Jika diaktifkan, akan menghapus semua modifikasi sistem untuk aplikasi yang tidak memiliki set profil.</string>
+    <string name="settings_susfs_toggle">Sembunyikan hook kprobe</string>
+    <string name="settings_susfs_toggle_summary">Ini menonaktifkan hook kprobe yang dibuat oleh ksu, dan sebagai gantinya, hook inline non-kprobe akan diaktifkan, sama seperti implementasi untuk kernel non-gki yang tidak mendukung kprobe.</string>
     <string name="profile_umount_modules_summary">Aktifkan opsi ini agar KernelSU dapat memulihkan kembali berkas termodifikasi oleh modul pada aplikasi ini.</string>
     <string name="profile_selinux_domain">Domain</string>
     <string name="profile_selinux_rules">Aturan</string>
