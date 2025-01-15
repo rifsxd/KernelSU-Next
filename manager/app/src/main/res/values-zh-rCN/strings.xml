@@ -84,10 +84,10 @@
     <string name="home_next_kernelsu_body">Next 实验性分支。在 GitHub 上查看！</string>
     <string name="home_experimental_kernelsu">⚠️ 实验性开发警告！</string>
     <string name="home_experimental_kernelsu_repo">127.0.0.1</string>
-    <string name="home_experimental_kernelsu_body">KernelSU Next 是一个非官方版本，保持着积极的实验开发。该版本所得即所用，不保证稳定性、性能和可靠性。</string>
-    <string name="home_experimental_kernelsu_body_point_1"> • 使用风险自负：可能会发生崩溃、意外行为或导致系统问题。</string>
-    <string name="home_experimental_kernelsu_body_point_2"> • 无担保：开发人员不对因使用而产生的任何数据丢失、系统损坏或其他后果负责。</string>
-    <string name="home_experimental_kernelsu_body_point_3"> • 仅用于测试目的：它适用于了解风险并能轻松解决问题的用户。</string>
+    <string name="home_experimental_kernelsu_body">KernelSU Next 属于第三方版本，保持着积极的实验开发。该版本所得即所用，不保证稳定性、性能和可靠性。</string>
+    <string name="home_experimental_kernelsu_body_point_1"> • 风险自担：可能会发生崩溃、意外行为或导致系统故障。</string>
+    <string name="home_experimental_kernelsu_body_point_2"> • 不做保证：开发者不对数据丢失、系统损坏等问题负责。</string>
+    <string name="home_experimental_kernelsu_body_point_3"> • 仅供测试：此版适合了解风险并能轻松解决问题的用户。</string>
     <string name="about_source_code"><![CDATA[在 %1$s 查看源码]]></string>
     <string name="profile" translatable="false">App Profile</string>
     <string name="profile_default">默认</string>
