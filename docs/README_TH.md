@@ -42,7 +42,7 @@ KernelSU Next รองรับแบบเป็นทางการตั้
 ## เครดิต
 
 - [kernel-assisted-superuser](https://git.zx2c4.com/kernel-assisted-superuser/about/): ที่เป็นคนริเริ่มไอเดียเกี่ยวกับ KernelSU
-- [Magisk](https://github.com/topjohnwu/Magisk): อุปกรณ์เกี่ยวกับรทูที่ทรงพลัง
+- [Magisk](https://github.com/topjohnwu/Magisk): อุปกรณ์มือเกี่ยวกับรูทที่ทรงพลัง
 - [genuine](https://github.com/brevent/genuine/): การออกลายเซ็นให้กับไฟล์ apk v2
 - [Diamorphine](https://github.com/m0nad/Diamorphine): ความรู้ความสามารถเกี่ยวกับ rootkit
 - [KernelSU](https://github.com/tiann/KernelSU): ต้องขอบคุณ tiann ถ้าไม่มีคนนั้นก็ไม่มีสิ่งที่เรียกว่า KernelSU เกิดขึ้น
