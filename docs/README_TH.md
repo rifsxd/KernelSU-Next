@@ -14,7 +14,7 @@
 ## คุณสมบัติ
 
 1. การรทูที่ฝังไปในเคอร์เนล `su` และตัวช่วยจัดการรูท
-2. ระบบโมดูลที่ใช้ระบบการติดตั้งแบบไดนามิก [Magic Mount](https://topjohnwu.github.io/Magisk/details.html#magic-mount) / [OverlayFS](https://en.wikipedia.org/wiki/OverlayFS).
+2. ระบบโมดูลที่ใช้ระบบการติดตั้งแบบไดนามิก [Magic Mount](https://topjohnwu.github.io/Magisk/details.html#magic-mount) / [OverlayFS](https://en.wikipedia.org/wiki/OverlayFS)
 3. [App Profile](https://kernelsu.org/guide/app-profile.html): จำกัดพลังรูทไว้สำหรับแอปต่างๆ
 
 ## การเข้ากันในอุปกรณ์ต่างๆ
