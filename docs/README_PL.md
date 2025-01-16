@@ -46,5 +46,5 @@ Na ten czas, tylko `arm64-v8a` jest wspierane.
 - [Magisk](https://github.com/topjohnwu/Magisk): mocarny menedżer rootu..
 - [genuine](https://github.com/brevent/genuine/): weryfikowanie certyfikatów plików apk v2.
 - [Diamorphine](https://github.com/m0nad/Diamorphine): umiejętności rootkita.
-- [KernelSU](https://github.com/tiann/KernelSU): thanks to tiann, or else KernelSU Next wouldn't even exist.
-- [Magic Mount Port](https://github.com/5ec1cff/KernelSU/blob/main/userspace/ksud/src/magic_mount.rs): 💜 5ec1cff for saving KernelSU!
+- [KernelSU](https://github.com/tiann/KernelSU): podziękowanie Tiann, bez niego KernelSU Next by nie istniał..
+- [Magic Mount Port](https://github.com/5ec1cff/KernelSU/blob/main/userspace/ksud/src/magic_mount.rs): 💜 5ec1cff za uratowanie KernelSU!
