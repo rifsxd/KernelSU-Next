@@ -60,7 +60,19 @@ ccflags-y += -DKSU_COMPAT_GET_CRED_RCU
 
 ccflags-y += -DKSU_UMOUNT
 
-# This feature is introduced in linux 5.0-rc1
+# Determine the appropriate atomic function and apply patch accordingly
+ifeq ($(shell grep -q "atomic_inc_not_zero" $(srctree)/kernel/cred.c; echo $$?),0)
+ATOMIC_INC_FUNC = atomic_inc_not_zero
+else ifeq ($(shell grep -q "atomic_long_inc_not_zero" $(srctree)/kernel/cred.c; echo $$?),0)
+ATOMIC_INC_FUNC = atomic_long_inc_not_zero
+else
+$(info -- KSU_NEXT: Neither atomic_inc_not_zero nor atomic_long_inc_not_zero found in kernel/cred.c)
+endif
+
+# Inform which function is being patched
+$(info -- KSU_NEXT: Using $(ATOMIC_INC_FUNC) in get_cred_rcu patch.)
+
+# Add the get_cred_rcu function to cred.h if not already present
 ifneq ($(shell grep -Eq "^static inline const struct cred \*get_cred_rcu" $(srctree)/include/linux/cred.h; echo $$?),0)
 $(info -- KSU_NEXT: adding function 'static inline const struct cred *get_cred_rcu(const struct cred *cred);' to $(srctree)/include/linux/cred.h)
 GET_CRED_RCU = static inline const struct cred *get_cred_rcu(const struct cred *cred)\n\
@@ -68,15 +80,16 @@ GET_CRED_RCU = static inline const struct cred *get_cred_rcu(const struct cred *
         struct cred *nonconst_cred = (struct cred *) cred;\n\t\
         if (!cred)\n\t\t\
                 return NULL;\n\t\
-        if (!atomic_inc_not_zero(&nonconst_cred->usage))\n\t\t\
+        if (!$(ATOMIC_INC_FUNC)(&nonconst_cred->usage))\n\t\t\
                 return NULL;\n\t\
         validate_creds(cred);\n\t\
         return cred;\n\
 }\n
 $(shell grep -qF "$(GET_CRED_RCU)" $(srctree)/include/linux/cred.h || sed -i '/^static inline void put_cred/i $(GET_CRED_RCU)' $(srctree)/include/linux/cred.h)
 
+# Modify get_task_cred in cred.c
 $(info -- KSU_NEXT: modifying 'get_task_cred' function in $(srctree)/kernel/cred.c)
-$(shell sed -i 's/!atomic_inc_not_zero(&((struct cred \*)cred)->usage)/!get_cred_rcu(cred)/g' $(srctree)/kernel/cred.c)
+$(shell sed -i "s/!$(ATOMIC_INC_FUNC)(&((struct cred \*)cred)->usage)/!get_cred_rcu(cred)/g" $(srctree)/kernel/cred.c)
 endif
 
 ifneq ($(shell grep -Eq "^static int can_umount" $(srctree)/fs/namespace.c; echo $$?),0)
