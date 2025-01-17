@@ -105,7 +105,7 @@
     <string name="profile_capabilities">Возможности</string>
     <string name="profile_selinux_context">Контекст SELinux</string>
     <string name="profile_umount_modules">Отключить модули</string>
-    <string name="failed_to_update_app_profile">Не удалось обновить профиль приложения для %s</string>
+    <string name="failed_to_update_app_profile">Не удалось обновить Профиль Приложения для %s</string>
     <string name="require_kernel_version">Текущая версия KernelSU Next %d слишком низкая для корректной работы менеджера. Пожалуйста, обновитесь до версии %d или выше!</string>
     <string name="settings_umount_modules_default">Отключать модули по умолчанию</string>
     <string name="settings_umount_modules_default_summary">Глобальное значение по умолчанию для "Отключить модули" в профиле приложения. Если включено, это удалит все модификации системы модулями для приложений без установленного профиля.</string>
