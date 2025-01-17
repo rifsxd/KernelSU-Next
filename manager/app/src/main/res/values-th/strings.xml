@@ -33,7 +33,7 @@
     <string name="module_failed_to_enable">Failed to enable module: %s</string>
     <string name="module_failed_to_disable">Failed to disable module: %s</string>
     <string name="module_empty">No module installed</string>
-    <string name="module">Module</string>
+    <string name="module">โมดูล</string>
     <string name="module_install_prompt_with_name">Do you want to continue installing module %1$s?</string>
     <string name="module_sort_a_to_z">Sort (A-Z)</string>
     <string name="module_sort_z_to_a">Sort (Z-A)</string>
@@ -42,7 +42,7 @@
     <string name="module_install">Install</string>
     <string name="install">Install</string>
     <string name="reboot">Reboot</string>
-    <string name="settings">Settings</string>
+    <string name="settings">การตั้งค่า</string>
     <string name="reboot_userspace">Soft Reboot</string>
     <string name="reboot_recovery">Reboot to Recovery</string>
     <string name="reboot_bootloader">Reboot to Bootloader</string>
