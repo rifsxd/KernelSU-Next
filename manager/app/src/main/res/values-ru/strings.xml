@@ -109,8 +109,8 @@
     <string name="require_kernel_version">Текущая версия KernelSU Next %d слишком низкая для корректной работы менеджера. Пожалуйста, обновитесь до версии %d или выше!</string>
     <string name="settings_umount_modules_default">Отключать модули по умолчанию</string>
     <string name="settings_umount_modules_default_summary">Глобальное значение по умолчанию для "Отключить модули" в профиле приложения. Если включено, это удалит все модификации системы модулями для приложений без установленного профиля.</string>
-    <string name="settings_susfs_toggle">Скрыть крючки kprobe</string>
-    <string name="settings_susfs_toggle_summary">Отключает крючки kprobe, созданные ksu, и вместо этого активирует встроенные некрючковые функции, реализующие ту же функциональность для неконечных ядер, которые не поддерживают kprobe.</string>
+    <string name="settings_susfs_toggle">Скрыть хуки kprobe</string>
+    <string name="settings_susfs_toggle_summary">Отключает хуки kprobe, созданные ksu, и вместо этого активирует встроенные некрючковые функции, реализующие ту же функциональность для неконечных ядер, которые не поддерживают kprobe.</string>
     <string name="profile_umount_modules_summary">Включение этой опции позволит KernelSU Next восстанавливать любые изменённые модулями файлы для этого приложения.</string>
     <string name="profile_selinux_domain">Домен</string>
     <string name="profile_selinux_rules">Правила</string>
@@ -124,12 +124,12 @@
     <string name="restart_app">Перезапустить</string>
     <string name="failed_to_update_sepolicy">Не удалось обновить правила SELinux для: %s</string>
     <string name="module_changelog">Журнал изменений</string>
-    <string name="settings_profile_template">Шаблон профиля приложения</string>
+    <string name="settings_profile_template">Шаблон Профиля Приложения</string>
     <string name="settings_profile_template_summary">Управление локальными и онлайн-шаблонами профилей приложений</string>
     <string name="app_profile_template_create">Создать шаблон</string>
     <string name="app_profile_template_edit">Редактировать шаблон</string>
     <string name="app_profile_template_id">Идентификатор</string>
-    <string name="app_profile_template_id_invalid">Недействительный идентификатор шаблона</string>
+    <string name="app_profile_template_id_invalid">Неверный идентификатор шаблона</string>
     <string name="app_profile_template_name">Имя</string>
     <string name="app_profile_template_description">Описание</string>
     <string name="app_profile_template_save">Сохранить</string>
@@ -155,7 +155,7 @@
     <string name="enable_web_debugging_summary">Можно использовать для отладки WebUI. Включайте только при необходимости.</string>
     <string name="direct_install">Прямая установка (Рекомендуется)</string>
     <string name="select_file">Выберите файл</string>
-    <string name="install_inactive_slot">Установить в неактивный слот (после OTA)</string>
+    <string name="install_inactive_slot">Установить в неактивный слот (После OTA)</string>
     <string name="install_inactive_slot_warning">Ваше устройство будет **ПРИНУДИТЕЛЬНО** загружено в текущий неактивный слот после перезагрузки!\nИспользуйте эту опцию только после завершения OTA.\nПродолжить?</string>
     <string name="install_next">Далее</string>
     <string name="select_file_tip">Рекомендуется образ раздела %1$s</string>
