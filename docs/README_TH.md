@@ -4,7 +4,7 @@
 
 <img src="/assets/kernelsu_next.png" style="width: 96px;" alt="logo">
 
-การรูทที่ฝังไปในเคอร์เนลสำหรับโทรศัพท์ Android
+โซลูชันรูทบนพื้นฐานเคอร์เนลสำหรับอุปกรณ์ Android
 
 [![Latest Release](https://img.shields.io/github/v/release/rifsxd/KernelSU-Next?label=Release&logo=github)](https://github.com/rifsxd/KernelSU-Next/releases/latest)
 [![Nightly Release](https://img.shields.io/badge/Nightly%20Release-gray?logo=hackthebox&logoColor=fff)](https://nightly.link/rifsxd/KernelSU-Next/workflows/build-manager/next/manager)
@@ -13,7 +13,7 @@
 
 ## คุณสมบัติ
 
-1. การรูทที่ฝังไปในเคอร์เนล `su` และตัวช่วยจัดการรูท
+1. การจัดการการเข้าถึงรูทและ `su` บนเคอร์เนล
 2. ระบบโมดูลที่ใช้ระบบการติดตั้งแบบไดนามิก [Magic Mount](https://topjohnwu.github.io/Magisk/details.html#magic-mount) / [OverlayFS](https://en.wikipedia.org/wiki/OverlayFS)
 3. [App Profile](https://kernelsu.org/guide/app-profile.html): จำกัดพลังรูทไว้สำหรับแอปต่างๆ
 
@@ -28,11 +28,11 @@ KernelSU Next รองรับแบบเป็นทางการตั้
 
 ## การใช้งาน
 
-- [วิธีการลงเข้าไปในอุปกรณ์ต่างๆ](https://rifsxd.github.io/KernelSU-Next/)
+- [คำแนะนำในการติดตั้ง](https://rifsxd.github.io/KernelSU-Next/)
 
 ## ความปลอดภัย
 
-สำหรับการรายงานปัญหาที่เกี่ยวกับความปลอดภัยต่างๆหรือช่องโหว่ใน KernelSU กรุณาให้ไปดูใน [SECURITY.md](/SECURITY.md).
+สำหรับข้อมูลเกี่ยวกับการรายงานช่องโหว่ด้านความปลอดภัยใน KernelSU โปรดดูที่ [SECURITY.md](/SECURITY.md).
 
 ## ใบอนุญาต
 
