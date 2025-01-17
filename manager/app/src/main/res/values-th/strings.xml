@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="issue_report_title">มีปัญหาหรือเจอบั๊กเหรอไม่?</string>
+    <string name="issue_report_title">มีปัญหาหรือเจอบั๊กหรือไม่?</string>
     <string name="issue_report_body">เจอบั๊กหรือข้อแนะนําไหม?</string>
     <string name="issue_report_body_2">โปรดรายงานมันให้เร็วที่สุด!</string>
     <string name="issue_report_github">รายงานบน Github</string>
@@ -14,10 +14,10 @@
     <string name="home_click_to_install">กดเพื่อติดตั้ง</string>
     <string name="home_working">กำลังทำงาน</string>
     <string name="home_working_version">เวอร์ชัน: %d</string>
-    <string name="home_superuser_count">แอปที่มีสิทธิ์ผู้ใช้งานขั้นสูง: %d</string>
-    <string name="home_module_count">โมดูลที่มีอยู่ทั้งหมด: %d</string>
+    <string name="home_superuser_count">สิทธิ์ผู้ใช้ขั้นสูง: %d</string>
+    <string name="home_module_count">โมดูล: %d</string>
     <string name="home_failure">ลายเซ็น KernelSU Next v2 ไม่เจอในเคอร์เนล [ !KSU_NEXT || != size/hash ]</string>
-    <string name="home_failure_tip">กรุณาถามผู้พัฒนาเคอร์เนลของอุปกรณ์ของคุณให้นํา KernelSU Next เข้าไปในเคอร์เนล</string>
+    <string name="home_failure_tip">กรุณาถามผู้พัฒนาเคอร์เนลของคุณให้นํา KernelSU Next เข้าไปในเคอร์เนล</string>
     <string name="home_kernel">เวอร์ชันเคอร์เนล</string>
     <string name="home_susfs">SuSFS: %s</string>
     <string name="home_susfs_version">เวอร์ชัน SuSFS</string>
@@ -29,7 +29,7 @@
     <string name="selinux_status_enforcing">Enforcing</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_unknown">ไม่ทราบ</string>
-    <string name="superuser">แอปที่มีสิทธิ์ผู้ใช้งานขั้นสูง</string>
+    <string name="superuser">สิทธิ์ผู้ใช้ขั้นสูง</string>
     <string name="module_failed_to_enable">ล้มเหลวในการเปิดใช้งานโมดูล: %s</string>
     <string name="module_failed_to_disable">ล้มเหลวในการปิดใช้งานโมดูล: %s</string>
     <string name="module_empty">ไม่มีโมดูลที่ติดตั้ง</string>
@@ -91,7 +91,7 @@
     <string name="home_experimental_kernelsu_body_point_1"> • โปรดใช้ในภายใต้ความเสี่ยงของคุณ: อาจจะเกิดปัญหา crashes สิ่งที่ไม่คาดฝันหรือปัญหาในระบบอื่นๆ</string>
     <string name="home_experimental_kernelsu_body_point_2"> • ไม่มีการรับรอง: ผู้พัฒนาจะไม่รับผิดชอบในกรณีที่เกิดข้อมูลหายหรือไฟล์ระบบได้รับความเสียหายและอื่นๆจากการใช้งานสิ่งนี้</string>
     <string name="home_experimental_kernelsu_body_point_3"> • สำหรับการทดลองเท่านั้น: ไว้เฉพาะกับผู้ใช้งานที่เข้าใจในความเสี่ยงและมีความรู้ความสามารถเบื้องต้นในการแก้ไขปัญหา</string>
-    <string name="about_source_code"><![CDATA[สามารถดู source code ได้ที่ %1$s]]></string>
+    <string name="about_source_code"><![CDATA[สามารถดู Source Code ได้ที่ %1$s]]></string>
     <string name="profile" translatable="false">โปรไฟล์แอป</string>
     <string name="profile_default">ค่าเริ่มต้น</string>
     <string name="profile_template">เทมเพลต</string>
