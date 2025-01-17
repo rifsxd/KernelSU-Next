@@ -34,7 +34,7 @@
     <string name="module_failed_to_disable">ล้มเหลวในการปิดใช้งานโมดูล: %s</string>
     <string name="module_empty">ไม่มีโมดูลที่ติดตั้ง</string>
     <string name="module">โมดูล</string>
-    <string name="module_install_prompt_with_name">คุณแน่ใจที่จะติดตั้งโมดูล %s หรือไม่\?</string>
+    <string name="module_install_prompt_with_name">คุณแน่ใจที่จะติดตั้งโมดูล %s หรือไม่?</string>
     <string name="module_sort_a_to_z">เรียงลำดับ (A-Z)</string>
     <string name="module_sort_z_to_a">เรียงลำดับ (Z-A)</string>
     <string name="uninstall">ถอนการติดตั้ง</string>
