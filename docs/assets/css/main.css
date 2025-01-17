@@ -41,6 +41,14 @@ footer a {
     color: #cccccc;
 }
 
+.nav-link.active {
+    background-color: #ffffff;
+    color: black;
+    border-radius: 5px;
+    padding: 2px 0px 2px 0px;
+    margin: 6px 0px;
+}
+
 header {
     background-color: #000000;
     color: #ffffff;
