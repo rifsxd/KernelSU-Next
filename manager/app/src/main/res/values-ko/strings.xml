@@ -19,6 +19,9 @@
     <string name="home_failure">KernelSU Next v2 서명이 커널에서 발견되지 않았습니다! [ !KSU_NEXT || != size/hash ]</string>
     <string name="home_failure_tip">커널 개발자에게 KernelSU Next 지원을 문의해주세요!</string>
     <string name="home_kernel">커널 버전</string>
+    <string name="home_susfs">SuSFS: %s</string>
+    <string name="home_susfs_version">SuSFS 버전</string>
+    <string name="home_susfs_sus_su">SuS SU</string>
     <string name="home_android">안드로이드 버전</string>
     <string name="home_manager_version">매니저 버전</string>
     <string name="home_selinux_status">SELinux 상태</string>
@@ -65,10 +68,15 @@
     <string name="home_module_mount">모듈 마운트 시스템</string>
     <string name="home_magic_mount">Magic Mount</string>
     <string name="home_overlayfs_mount">OverlayFS</string>
+    <string name="unavailable">이용할 수 없음</string>
     <string name="use_overlay_fs">OverlayFS 사용하기 (베타)</string>
     <string name="use_overlay_fs_summary">토글 하여 KernelSU Next의 모듈 마운트 시스템을 Magic Mount와 OverlayFS 간에 전환합니다.</string>
     <string name="reboot_required">다시 시작 필요</string>
     <string name="reboot_message">시스템을 다시 시작한 후에 변경 사항들이 적용됩니다. 지금 다시 시작하시겠습니까?</string>
+    <string name="module_restore">모듈 복원</string>
+    <string name="module_restore_message">가장 최근의 백업으로부터 모듈을 복구합니다.</string>
+    <string name="module_backup">모듈 백업</string>
+    <string name="module_backup_message">현재 설치된 모듈들을 백업합니다.</string>
     <string name="warning">경고</string>
     <string name="warning_message">이 기능은 아직 베타 단계이며 개발 중입니다. 계속하기 전에 모듈들을 백업해 놓으시기를 바랍니다. 위험를 이해한 경우에만 이 기능을 이용하세요. 주의하여 계속하세요.</string>
     <string name="proceed">계속</string>
@@ -76,7 +84,7 @@
     <string name="later">나중에</string>
     <string name="home_next_kernelsu">🔥 Next 빌드</string>
     <string name="home_next_kernelsu_repo">https://github.com/rifsxd/KernelSU-Next</string>
-    <string name="home_next_kernelsu_body">Next 시험 브랜치. GitHub에서 확인하세요!</string>
+    <string name="home_next_kernelsu_body">Next 시험 브랜치입니다. GitHub에서 확인하세요!</string>
     <string name="home_experimental_kernelsu">⚠️ 실험적 개발 버전 경고!</string>
     <string name="home_experimental_kernelsu_repo">127.0.0.1</string>
     <string name="home_experimental_kernelsu_body">KernelSU Next는 활발한 실험적 개발 단계에 있는 비공식 버전입니다. 안정성, 성능 또는 신뢰성에 대한 보장 없이 있는 그대로 제공됩니다.</string>
@@ -101,8 +109,8 @@
     <string name="require_kernel_version">현재 KernelSU Next 버전 %d이 너무 낮아 매니저가 올바르게 작동하기 어렵습니다. 버전 %d이상으로 업데이트해 주세요!</string>
     <string name="settings_umount_modules_default">기본적으로 모듈 마운트 해제</string>
     <string name="settings_umount_modules_default_summary">앱 프로파일의 \"모듈 마운트 해제\" 옵션에 대한 전역 기본값입니다. 이 옵션이 활성화되면, 프로파일이 설정되어 있지 않은 앱들에 대한 모듈의 모든 수정사항을 복구합니다.</string>
-    <string name="settings_susfs_toggle">kprobe 훅 숨기기</string>
-    <string name="settings_susfs_toggle_summary">이 설정은 ksu가 만든 kprobe 훅을 비활성화하고 대신 비-kprobe 인라인 훅을 활성화합니다. 이는 kprobe가 지원되지 않는 non-gki 커널과 동일한 구현입니다.</string>
+    <string name="settings_susfs_toggle">kprobe hook 숨기기</string>
+    <string name="settings_susfs_toggle_summary">ksu에 의해 생성된 kprobe hook을 비활성화하고 대신 내장된 비-kprobe hook을 활성화하여 kprobe를 지원하지 않는 비-GKI 커널에 적용되는 것과 동일하게 구현합니다.</string>
     <string name="profile_umount_modules_summary">이 옵션이 활성화되면, 이 앱에 대한 모듈의 모든 수정사항을 복구합니다.</string>
     <string name="profile_selinux_domain">도메인</string>
     <string name="profile_selinux_rules">규칙</string>
