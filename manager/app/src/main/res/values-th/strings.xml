@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="issue_report_title"มีปัญหาหรือเจอบั๊กเหรอไม่?</string>
+    <string name="issue_report_title">มีปัญหาหรือเจอบั๊กเหรอไม่?</string>
     <string name="issue_report_body">เจอบั๊กหรือข้อแนะนําไหม?</string>
     <string name="issue_report_body_2">โปรดรายงานมันให้เร็วที่สุด!</string>
     <string name="issue_report_github">รายงานบน Github</string>
