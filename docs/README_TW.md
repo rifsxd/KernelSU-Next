@@ -1,4 +1,4 @@
-[English](README.md) | [简体中文](README_CN.md) | **繁體中文** | [Türkçe](README_TR.md) | [Português (Brasil)](README_PT-BR.md) | [한국어](README_KO.md) | [Français](README_FR.md) | [Bahasa Indonesia](README_ID.md) | [Русский](README_RU.md)
+[English](README.md) | [简体中文](README_CN.md) | **繁體中文** | [Türkçe](README_TR.md) | [Português (Brasil)](README_PT-BR.md) | [한국어](README_KO.md) | [Français](README_FR.md) | [Bahasa Indonesia](README_ID.md) | [Русский](README_RU.md) | [ภาษาไทย](README_TH.md)
 
 # KernelSU Next
 
@@ -47,3 +47,4 @@ KernelSU Next 正式支持大多數從 4.4 到 6.6 的 Android 內核。
 - [Diamorphine](https://github.com/m0nad/Diamorphine): 一些 Rootkit 技巧。
 - [KernelSU](https://github.com/tiann/KernelSU): 感謝 tiann，否則 KernelSU Next 根本不會存在。
 - [Magic Mount Port](https://github.com/5ec1cff/KernelSU/blob/main/userspace/ksud/src/magic_mount.rs): 💜 5ec1cff 為了拯救 KernelSU！
+
