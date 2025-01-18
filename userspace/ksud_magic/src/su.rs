@@ -154,7 +154,7 @@ pub fn root_shell() -> Result<()> {
     }
 
     if matches.opt_present("v") {
-        println!("{}:KernelSU Next", defs::VERSION_NAME);
+        println!("{}:KernelSU", defs::VERSION_NAME);
         return Ok(());
     }
 
