@@ -91,7 +91,7 @@ jobs:
         uses: actions/cache@v4
         if: false
         with:
-          path: scripts/ksubot.session
+          path: scripts/ksunextbot.session
           key: ${{ runner.os }}-bot-session
 
       - name: Build boot images
