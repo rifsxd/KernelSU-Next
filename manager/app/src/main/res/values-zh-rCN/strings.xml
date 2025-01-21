@@ -69,8 +69,8 @@
     <string name="home_magic_mount">Magic Mount</string>
     <string name="home_overlayfs_mount">OverlayFS</string>
     <string name="unavailable">不可用</string>
-    <string name="use_overlay_fs">使用 OverlayFS（实验性）</string>
-    <string name="use_overlay_fs_summary">在 OverlayFS 和 Magic Mount 两种挂载系统之间进行切换。</string>
+    <string name="use_overlay_fs">使用 OverlayFS</string>
+    <string name="use_overlay_fs_summary">在 OverlayFS 和 Magic Mount 两种挂载系统之间进行切换。（实验性）</string>
     <string name="reboot_required">需要重启</string>
     <string name="reboot_message">更改将在重启系统后生效。您想现在重启吗？</string>
     <string name="module_restore">恢复模块</string>
