@@ -69,8 +69,8 @@
     <string name="home_magic_mount">Magic Mount</string>
     <string name="home_overlayfs_mount">OverlayFS</string>
     <string name="unavailable">ไม่สามารถใช้งานได้</string>
-    <string name="use_overlay_fs">ใช้ OverlayFS (เบต้า)</string>
-    <string name="use_overlay_fs_summary">สลับระหว่างการใช้ OverlayFS บน Magic Mount สำหรับโมดูลระบบของ KernelSU Next</string>
+    <string name="use_overlay_fs">ใช้ OverlayFS</string>
+    <string name="use_overlay_fs_summary">สลับระหว่างการใช้ OverlayFS บน Magic Mount สำหรับโมดูลระบบของ KernelSU Next (เบต้า)</string>
     <string name="reboot_required">จำเป็นที่ต้องรีบูต</string>
     <string name="reboot_message">การเปลี่ยนแปลงนี้จะส่งผลหลังจากที่รีบูท คุณต้องการรีบูทตอนนี้เลยไหม?</string>
     <string name="module_restore">กู้คืนโมดูล</string>
