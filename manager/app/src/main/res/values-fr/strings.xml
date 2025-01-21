@@ -69,8 +69,8 @@
     <string name="home_magic_mount">Magic Mount</string>
     <string name="home_overlayfs_mount">OverlayFS</string>
     <string name="unavailable">Indisponible</string>
-    <string name="use_overlay_fs">Utiliser OverlayFS (Beta)</string>
-    <string name="use_overlay_fs_summary">Alterner entre l\’utilisation d’OverlayFS et de Magic Mount pour le système de montage de KernelSU Next.</string>
+    <string name="use_overlay_fs">Utiliser OverlayFS</string>
+    <string name="use_overlay_fs_summary">Alterner entre l\’utilisation d’OverlayFS et de Magic Mount pour le système de montage de KernelSU Next. (Beta)</string>
     <string name="reboot_required">Redémarrage requis</string>
     <string name="reboot_message">Les changements ne seront effectifs qu\'après un redémarrage. Voulez-vous redémarrer maintenant?</string>
     <string name="module_restore">Restaurer des modules</string>
