@@ -69,8 +69,8 @@
     <string name="home_magic_mount">Magic Mount</string>
     <string name="home_overlayfs_mount">OverlayFS</string>
     <string name="unavailable">Kullanılamaz</string>
-    <string name="use_overlay_fs">OverlayFS Kullan (Beta)</string>
-    <string name="use_overlay_fs_summary">KernelSU Next\'in Mount sistemi için OverlayFS ile Magic Mount arasında geçiş yapın.</string>
+    <string name="use_overlay_fs">OverlayFS Kullan</string>
+    <string name="use_overlay_fs_summary">KernelSU Next\'in Mount sistemi için OverlayFS ile Magic Mount arasında geçiş yapın. (Beta)</string>
     <string name="reboot_required">Yeniden Başlatma Gerekiyor</string>
     <string name="reboot_message">Değişiklikler sistem yeniden başlatıldıktan sonra etkili olacaktır. Şimdi yeniden başlatmak istiyor musunuz?</string>
     <string name="module_restore">Modülleri Geri Yükle</string>
