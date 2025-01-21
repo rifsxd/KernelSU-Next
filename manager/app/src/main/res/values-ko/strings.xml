@@ -69,8 +69,8 @@
     <string name="home_magic_mount">Magic Mount</string>
     <string name="home_overlayfs_mount">OverlayFS</string>
     <string name="unavailable">이용할 수 없음</string>
-    <string name="use_overlay_fs">OverlayFS 사용하기 (베타)</string>
-    <string name="use_overlay_fs_summary">토글 하여 KernelSU Next의 모듈 마운트 시스템을 Magic Mount와 OverlayFS 간에 전환합니다.</string>
+    <string name="use_overlay_fs">OverlayFS 사용하기</string>
+    <string name="use_overlay_fs_summary">토글 하여 KernelSU Next의 모듈 마운트 시스템을 Magic Mount와 OverlayFS 간에 전환합니다. (베타)</string>
     <string name="reboot_required">다시 시작 필요</string>
     <string name="reboot_message">시스템을 다시 시작한 후에 변경 사항들이 적용됩니다. 지금 다시 시작하시겠습니까?</string>
     <string name="module_restore">모듈 복원</string>
