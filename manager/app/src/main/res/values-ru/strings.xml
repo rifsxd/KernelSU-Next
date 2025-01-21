@@ -69,8 +69,8 @@
     <string name="home_magic_mount">Magic Mount</string>
     <string name="home_overlayfs_mount">OverlayFS</string>
     <string name="unavailable">Недоступно</string>
-    <string name="use_overlay_fs">Использовать OverlayFS (Бета)</string>
-    <string name="use_overlay_fs_summary">Переключение между использованием OverlayFS и Magic Mount для системы монтирования KernelSU Next.</string>
+    <string name="use_overlay_fs">Использовать OverlayFS</string>
+    <string name="use_overlay_fs_summary">Переключение между использованием OverlayFS и Magic Mount для системы монтирования KernelSU Next. (Бета)</string>
     <string name="reboot_required">Требуется перезагрузка</string>
     <string name="reboot_message">Изменения вступят в силу после перезагрузки системы. Перезагрузить сейчас?</string>
     <string name="module_restore">Восстановить модуль</string>
