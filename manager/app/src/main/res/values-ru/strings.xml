@@ -160,8 +160,8 @@
     <string name="install_next">Далее</string>
     <string name="select_file_tip">Рекомендуется образ раздела %1$s</string>
     <string name="select_kmi">Выберите KMI</string>
-    <string name="shrink_sparse_image">Уменьшить разрежённый образ</string>
-    <string name="shrink_sparse_image_message">Измените размер разрежённого образа, в котором находится модуль, до его фактического размера. Обратите внимание, что это может вызвать ненормальную работу модуля, поэтому используйте только при необходимости (например, для резервного копирования).</string>
+    <string name="shrink_sparse_image">Уменьшить modules.img образ</string>
+    <string name="shrink_sparse_image_message">Измените размер modules.img образа, в котором находятся модули, до его фактического размера. Обратите внимание, что это может вызвать ненормальную работу модулей, поэтому используйте только при необходимости (например, для резервного копирования).</string>
     <string name="settings_uninstall">Удаление</string>
     <string name="settings_uninstall_temporary">Временное удаление</string>
     <string name="settings_uninstall_permanent">Полное удаление</string>
