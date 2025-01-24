@@ -23,7 +23,7 @@
     <string name="home_susfs_supported">Pris en charge</string>
     <string name="home_susfs_version">Version de SuSFS</string>
     <string name="home_susfs_sus_su">SuS SU</string>
-    <string name="home_susfs_sus_su_mode">SuS SU mode: %s</string>
+    <string name="home_susfs_sus_su_mode">Mode de SuS SU: %s</string>
     <string name="home_android">Version d\'Android</string>
     <string name="home_manager_version">Version du manager</string>
     <string name="home_selinux_status">Statut SELinux</string>
@@ -64,7 +64,7 @@
     <string name="show_system_apps">Montrer les apps système</string>
     <string name="hide_system_apps">Cacher les apps système</string>
     <string name="export_log">Exporter les logs</string>
-    <string name="safe_mode">Mode sécurité</string>
+    <string name="safe_mode">Mode sans échec</string>
     <string name="reboot_to_apply">Redémarrer pour appliquer les changements</string>
     <string name="module_magisk_conflict">Les modules sont indisponibles en raison d\'un conflit avec Magisk!</string>
     <string name="home_module_mount">Module système</string>
