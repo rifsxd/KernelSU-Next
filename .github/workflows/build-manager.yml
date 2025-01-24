@@ -13,7 +13,12 @@ on:
   # pull_request:
   #   branches: [ "next" ]
   #   paths:
+  #     - '.github/workflows/build-manager-ci.yml'
   #     - 'manager/**'
+  #     - 'kernel/**'
+  #     - 'userspace/ksud_overlayfs**'
+  #     - 'userspace/ksud_magic/**'
+  #     - 'userspace/susfsd/**'
   workflow_call:
   workflow_dispatch:
 
@@ -45,9 +50,9 @@ jobs:
     with:
       target: ${{ matrix.target }}
       os: ${{ matrix.os }}
-  
+
   build-ksud_magic:
-    needs: build-ksud_overlayfs
+    needs: build-susfsd
     strategy:
       matrix:
         include:
@@ -59,7 +64,7 @@ jobs:
       os: ${{ matrix.os }}
 
   build-manager:
-    needs: build-ksud_magic
+    needs: [build-ksud_magic, build-ksud_overlayfs]
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -103,7 +108,7 @@ jobs:
 
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
-        
+
       - name: Download arm64 susfsd
         uses: actions/download-artifact@v4
         with:
@@ -120,21 +125,20 @@ jobs:
         with:
           name: ksud_overlayfs-aarch64-linux-android
           path: ksud_overlayfs
-        
+
       - name: Copy ksud_overlayfs to app jniLibs
         run: |
           cp -f ../ksud_overlayfs/aarch64-linux-android/release/ksud ../manager/app/src/main/jniLibs/arm64-v8a/libksud_overlayfs.so
-      
+
       - name: Download arm64 ksud_magic
         uses: actions/download-artifact@v4
         with:
           name: ksud_magic-aarch64-linux-android
           path: ksud_magic
-        
+
       - name: Copy ksud_magic to app jniLibs
         run: |
           cp -f ../ksud_magic/aarch64-linux-android/release/ksud ../manager/app/src/main/jniLibs/arm64-v8a/libksud_magic.so
-          
 
       - name: Build with Gradle
         run: |
@@ -187,4 +191,3 @@ jobs:
             pip3 install telethon
             python3 $GITHUB_WORKSPACE/scripts/ksunextbot.py $APK
           fi
-  
