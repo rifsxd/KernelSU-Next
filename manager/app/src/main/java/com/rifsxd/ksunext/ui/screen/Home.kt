@@ -293,7 +293,7 @@ private fun StatusCard(
                         val suSFS = getSuSFS()
                         if (suSFS == "Supported") {
                             Text(
-                                text = stringResource(R.string.home_susfs, getSuSFS()),
+                                text = stringResource(R.string.home_susfs, stringResource(R.string.home_susfs_supported)),
                                 style = MaterialTheme.typography.bodyMedium
                             )
                         }
@@ -458,10 +458,10 @@ private fun InfoCard() {
             val isSUS_SU = getSuSFSFeatures() == "CONFIG_KSU_SUSFS_SUS_SU"
             val suSFS = getSuSFS()
             if (suSFS == "Supported") {
-                val susSUMode = if (isSUS_SU) "| SuS SU mode: ${susfsSUS_SU_Mode()}" else ""
+                val susSUMode = if (isSUS_SU) "｜" + stringResource(R.string.home_susfs_sus_su_mode, "${susfsSUS_SU_Mode()}") else ""
                 InfoCardItem(
                     label = stringResource(R.string.home_susfs_version),
-                    content = "${getSuSFSVersion()} (${getSuSFSVariant()}) $susSUMode",
+                    content = "${getSuSFSVersion()} (${getSuSFSVariant()})$susSUMode",
                     icon = painterResource(R.drawable.ic_sus),
                 )
             }
