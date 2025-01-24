@@ -23,7 +23,7 @@
     <string name="home_susfs_supported">Didukung</string>
     <string name="home_susfs_version">Versi SuSFS</string>
     <string name="home_susfs_sus_su">SuS SU</string>
-    <string name="home_susfs_sus_su_mode">SuS SU mode: %s</string>
+    <string name="home_susfs_sus_su_mode">Mode SuS SU: %s</string>
     <string name="home_android">Versi Android</string>
     <string name="home_manager_version">Versi Manager</string>
     <string name="home_selinux_status">Status SELinux</string>
