@@ -23,7 +23,12 @@ on:
   workflow_dispatch:
 
 jobs:
+  build-lkm:
+    uses: ./.github/workflows/build-lkm.yml
+    secrets: inherit
+
   build-susfsd:
+    needs: build-lkm
     strategy:
       matrix:
         include:
@@ -45,7 +50,6 @@ jobs:
     with:
       target: ${{ matrix.target }}
       os: ${{ matrix.os }}
-      pack_lkm: false
 
   build-ksud_magic:
     needs: build-susfsd
@@ -58,7 +62,6 @@ jobs:
     with:
       target: ${{ matrix.target }}
       os: ${{ matrix.os }}
-      pack_lkm: false
 
   build-manager:
     needs: [build-ksud_magic, build-ksud_overlayfs]
