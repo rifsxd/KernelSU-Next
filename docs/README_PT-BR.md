@@ -39,6 +39,20 @@ Para obter informações sobre como relatar vulnerabilidades de segurança do Ke
 - Os arquivos no diretório `kernel` são [GPL-2.0-only](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
 - Todas as outras partes, exceto o diretório `kernel` são [GPL-3.0-or-later](https://www.gnu.org/licenses/gpl-3.0.html).
 
+## Doações
+
+- 0x12b5224b7aca0121c2f003240a901e1d064371c1 [ USDT BEP20 ]
+
+- TYUVMWGTcnR5svnDoX85DWHyqUAeyQcdjh [ USDT TRC20 ]
+
+- 0x12b5224b7aca0121c2f003240a901e1d064371c1 [ USDT ERC20 ]
+
+- 0x12b5224b7aca0121c2f003240a901e1d064371c1 [ ETH ERC20 ]
+
+- Ld238uYBuRQdZB5YwdbkuU6ektBAAUByoL [ LTC ]
+
+- 19QgifcjMjSr1wB2DJcea5cxitvWVcXMT6 [ BTC ]
+
 ## Créditos
 
 - [kernel-assisted-superuser](https://git.zx2c4.com/kernel-assisted-superuser/about/): a ideia do KernelSU.

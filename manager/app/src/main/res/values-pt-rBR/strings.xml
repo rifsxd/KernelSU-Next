@@ -110,7 +110,7 @@
     <string name="settings_umount_modules_default">Desmontar módulos por padrão</string>
     <string name="settings_umount_modules_default_summary">O valor padrão global para \"Desmontar módulos\" em Perfil do Aplicativo. Se ativado, ele removerá todas as modificações do módulo no sistema para apps que não possuem um perfil definido.</string>
     <string name="settings_susfs_toggle">Ocultar ganchos kprobe</string>
-    <string name="settings_susfs_toggle_summary">Ele desativa os ganchos kprobe criados pelo ksu e, em vez disso, ativa os ganchos embutidos não-kprobe, implementando a mesma funcionalidade que seria aplicada a um kernel não-GKI, que não oferece suporte para kprobe.</string>
+    <string name="settings_susfs_toggle_summary">Esta opção desativa os ganchos kprobe criados pelo ksu e, em vez disso, ativa os ganchos embutidos não-kprobe, implementando a mesma funcionalidade que seria aplicada a um kernel não-GKI, que não oferece suporte para kprobe.</string>
     <string name="profile_umount_modules_summary">Ativar esta opção permitirá que o KernelSU Next restaure quaisquer arquivos modificados pelos módulos para este app.</string>
     <string name="profile_selinux_domain">Domínio</string>
     <string name="profile_selinux_rules">Regras</string>
