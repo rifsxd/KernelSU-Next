@@ -110,7 +110,7 @@
     <string name="settings_umount_modules_default">Domyślnie odmontuj moduły</string>
     <string name="settings_umount_modules_default_summary">Globalna wartość domyślna opcji \"Odmontuj moduły\" w profilu aplikacji. Jeśli jest włączona, wycofuje wszystkie modyfikacje dokonane przez moduły dla aplikacji, które nie mają ustawionego profilu.</string>
     <string name="settings_susfs_toggle">Ukryj kprobe hooks</string>
-    <string name="settings_susfs_toggle_summary">It disables the kprobe hooks created by ksu and, instead, activates the embedded non-kprobe hooks, implementing the same functionality that would be applied to a non-GKI kernel, which doesn\'t support kprobe.</string>
+    <string name="settings_susfs_toggle_summary">Wyłącza kprobe hooks tworzone przez ksu i zastępuje je non-kprobe hooks, implementując tę ​​samą funkcjonalność, która byłaby zastosowana w jądrze non-GKI, które nie obsługuje kprobe.</string>
     <string name="profile_umount_modules_summary">>Włączenie tej opcji umożliwi KernelSU przywrócenie wszelkich zmodyfikowanych plików przez moduły dla tej aplikacji.</string>
     <string name="profile_selinux_domain">Domena</string>
     <string name="profile_selinux_rules">Reguły</string>
@@ -164,16 +164,16 @@
     <string name="shrink_sparse_image_message">Zmienia rozmiar obrazu rozrzedzonego(sparse), w którym znajduje się moduł, do jego rzeczywistego rozmiaru. Należy pamiętać, że może to spowodować nieprawidłowe działanie modułu, więc należy go używać tylko wtedy, gdy jest to konieczne (np. do tworzenia kopii zapasowych).</string>
     <string name="settings_uninstall">Odinstaluj</string>
     <string name="settings_uninstall_temporary">Odinstaluj tymczasowo</string>
-    <string name="settings_uninstall_permanent">Uninstall permanently</string>
-    <string name="settings_restore_stock_image">Restore stock image</string>
-    <string name="settings_uninstall_temporary_message">Temporarily uninstall KernelSU Next, restore to original state after next reboot.</string>
-    <string name="settings_uninstall_permanent_message">Uninstalling KernelSU Next (Root and all modules) completely and permanently.</string>
-    <string name="settings_restore_stock_image_message">Restore the stock factory image (If a backup exists), usually used before OTA; if you need to uninstall KernelSU Next, please use \"Uninstall permanently\".</string>
-    <string name="flashing">Flashing</string>
-    <string name="flash_success">Flash success</string>
-    <string name="flash_failed">Flash failed</string>
-    <string name="selected_lkm">Selected LKM: %s</string>
-    <string name="save_log">Save logs</string>
-    <string name="log_saved">Logs saved</string>
-    <string name="send_log">Share logs</string>
+    <string name="settings_uninstall_permanent">Odinstaluj zupełnie</string>
+    <string name="settings_restore_stock_image">Przywróć obraz fabryczny</string>
+    <string name="settings_uninstall_temporary_message">Tymczasowo odinstaluj KernelSU, przywróć do oryginalnego stanu po następnym ponownym uruchomieniu.</string>
+    <string name="settings_uninstall_permanent_message">Całkowite i trwałe odinstalowanie KernelSU (Root i wszystkich modułów).</string>
+    <string name="settings_restore_stock_image_message">Przywróć obraz fabryczny (jeśli istnieje kopia zapasowa), zwykle używany przed OTA; jeśli chcesz odinstalować KernelSU, użyj opcji \"Odinstaluj całkowicie\".</string>
+    <string name="flashing">Flashowanie</string>
+    <string name="flash_success">Flashowanie ukończone pomyślnie</string>
+    <string name="flash_failed">Flashowanie nieudane</string>
+    <string name="selected_lkm">Wybrano LKM: %s</string>
+    <string name="save_log">Zapisz logi</string>
+    <string name="log_saved">Logi zapisane</string>
+    <string name="send_log">Udostępnij logi</string>
 </resources>
