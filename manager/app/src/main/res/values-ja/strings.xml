@@ -11,7 +11,7 @@
     <string name="home">ホーム</string>
     <string name="home_not_installed">未インストール</string>
     <string name="home_click_to_install">タップでインストール</string>
-    <string name="home_working">稼働中</string>
+    <string name="home_working">動作中</string>
     <string name="home_working_version">バージョン: %d</string>
     <string name="home_superuser_count">スーパーユーザー: %d</string>
     <string name="home_module_count">モジュール: %d</string>
