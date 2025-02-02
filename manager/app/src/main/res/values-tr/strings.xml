@@ -29,11 +29,11 @@
     <string name="selinux_status_enforcing">Zorlanıyor (Enforcing)</string>
     <string name="selinux_status_permissive">Serbest (Permissive)</string>
     <string name="selinux_status_unknown">Bilinmiyor</string>
-    <string name="superuser">Süper kullanıcı</string>
+    <string name="superuser">SüperKullanıcı</string>
     <string name="module_failed_to_enable">Modül etkinleştirilemedi: %s</string>
     <string name="module_failed_to_disable">Modül devre dışı bırakılamadı: %s</string>
     <string name="module_empty">Yüklü modül yok</string>
-    <string name="module">Modül</string>
+    <string name="module">Modüller</string>
     <string name="module_install_prompt_with_name">%1$s modülünü yüklemeye devam etmek istiyor musunuz?</string>
     <string name="module_sort_a_to_z">Sırala (A-Z)</string>
     <string name="module_sort_z_to_a">Sırala (Z-A)</string>
