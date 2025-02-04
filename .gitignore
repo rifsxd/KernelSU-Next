@@ -5,3 +5,7 @@
 *.orig
 .orig
 .rej
+[submodule "KernelSU-Next"]
+    path = KernelSU-Next
+    url = https://github.com/aj4664/KernelSU-Next.git
+    
