@@ -160,6 +160,21 @@ ccflags-y += -DKSU_COMPAT_HAS_SELINUX_STATE
 endif
 
 ccflags-y += -DKSU_UMOUNT
+ifneq ($(shell grep -Eq "get_cred_rcu" $(srctree)/include/linux/cred.h; echo $$?),0)
+$(info -- KSU_SUSFS: adding function 'static inline const struct cred *get_cred_rcu();' to $(srctree)/include/linux/cred.h)
+GET_CRED_RCU = static inline const struct cred *get_cred_rcu(const struct cred *cred)\n\
+{\n\t\
+	struct cred *nonconst_cred = (struct cred *) cred;\n\t\
+	if (!cred)\n\t\t\
+		return NULL;\n\t\
+	if (!atomic_inc_not_zero(&nonconst_cred->usage))\n\t\t\
+		return NULL;\n\t\
+	validate_creds(cred);\n\t\
+	return cred;\n\
+}\n
+$(shell sed -i '/^static inline void put_cred/i $(GET_CRED_RCU)' $(srctree)/include/linux/cred.h;)
+endif
+
 ifneq ($(shell grep -Eq "^static int can_umount" $(srctree)/fs/namespace.c; echo $$?),0)
 $(info -- KSU_SUSFS: adding function 'static int can_umount(const struct path *path, int flags);' to $(srctree)/fs/namespace.c)
 CAN_UMOUNT = static int can_umount(const struct path *path, int flags)\n\
