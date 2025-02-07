@@ -213,7 +213,7 @@ void ksu_escape_to_root(void)
 	do {
 		cred = (struct cred *)__task_cred((current));
 		BUG_ON(!cred);
-	} while (!get_cred_rcu(cred));
+	} while (!atomic_inc_not_zero(&cred->usage));
 
 	if (cred->euid.val == 0) {
 		pr_warn("Already root, don't escape!\n");
