@@ -171,23 +171,3 @@ jobs:
         with:
           path: scripts/ksunextbot.session
           key: ${{ runner.os }}-bot-session
-
-      - name: Upload to telegram
-        if: steps.need_upload.outputs.UPLOAD == 'true'
-        env:
-          API_ID: ${{ secrets.API_ID }}
-          API_HASH: ${{ secrets.API_HASH }}
-          CHAT_ID: ${{ secrets.CHAT_ID }}
-          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-          MESSAGE_THREAD_ID: ${{ secrets.MESSAGE_THREAD_ID }}
-          COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
-          COMMIT_URL: ${{ github.event.head_commit.url }}
-          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
-          TITLE: Release Manager (STABLE BUILD)
-        run: |
-          if [ ! -z "${{ secrets.BOT_TOKEN }}" ]; then
-            export VERSION=$(git rev-list --count HEAD)
-            APK=$(find ./app/build/outputs/apk/release -name "*.apk")
-            pip3 install telethon
-            python3 $GITHUB_WORKSPACE/scripts/ksunextbot.py $APK
-          fi
