@@ -235,7 +235,10 @@ pub fn restore(
     ensure!(status.success(), "magiskboot unpack failed");
 
     let is_kernelsu_patched = is_kernelsu_patched(&magiskboot, workdir)?;
-    ensure!(is_kernelsu_patched, "boot image is not patched by KernelSU Next");
+    ensure!(
+        is_kernelsu_patched,
+        "boot image is not patched by KernelSU Next"
+    );
 
     let mut new_boot = None;
     let mut from_backup = false;
