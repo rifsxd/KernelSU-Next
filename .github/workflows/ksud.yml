@@ -22,7 +22,7 @@ jobs:
     runs-on: ${{ inputs.os }}
     steps:
     - name: Checkout Repository
-    - uses: actions/checkout@v4
+      uses: actions/checkout@v4
       with:
         fetch-depth: 0
 
