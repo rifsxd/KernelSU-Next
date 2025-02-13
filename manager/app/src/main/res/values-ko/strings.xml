@@ -57,6 +57,12 @@
     <string name="module_restore_failed">모듈 복구 실패: %s</string>
     <string name="module_version">버전</string>
     <string name="module_author">개발자</string>
+    <string name="module_id">아이디</string>
+    <string name="module_version_code">버전 코드</string>
+    <string name="module_update_json">업데이트 Json</string>
+    <string name="module_update_json_empty">비어있음</string>
+    <string name="enable_developer_options">개발자 옵션 활성화</string>
+    <string name="enable_developer_options_summary">개발자를 위한 숨겨진 설정과 디버깅 정보를 표시</string>
     <string name="module_overlay_fs_not_available">커널에서 OverlayFS를 비활성화하여 모듈을 사용할 수 없습니다.</string>
     <string name="refresh">새로 고침</string>
     <string name="show_system_apps">시스템 앱 보이기</string>
