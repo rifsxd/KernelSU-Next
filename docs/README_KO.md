@@ -41,9 +41,9 @@ KernelSU의 보안 취약점 보고에 대한 자세한 내용은 [SECURITY.md](
 
 ## 크레딧
 
-- [kernel-assisted-superuser](https://git.zx2c4.com/kernel-assisted-superuser/about/): KernelSU의 아이디어
+- [Kernel-Assisted Superuser](https://git.zx2c4.com/kernel-assisted-superuser/about/): KernelSU의 아이디어
 - [Magisk](https://github.com/topjohnwu/Magisk): 강력한 루팅 도구
-- [genuine](https://github.com/brevent/genuine/): apk v2 서명 검사
+- [genuine](https://github.com/brevent/genuine/): APK v2 서명 검사
 - [Diamorphine](https://github.com/m0nad/Diamorphine): 일부 rootkit 기술
 - [KernelSU](https://github.com/tiann/KernelSU): KernelSU Next가 존재할 수 있게 해 준 tiann에게 감사드립니다.
 - [Magic Mount Port](https://github.com/5ec1cff/KernelSU/blob/main/userspace/ksud/src/magic_mount.rs): KernelSU를 구해준 5ec1cff에게 감사드립니다!
