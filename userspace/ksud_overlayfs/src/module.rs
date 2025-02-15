@@ -284,17 +284,15 @@ pub fn prune_modules() -> Result<()> {
     Ok(())
 }
 
-fn create_module_image(image: &str, image_size: u64, journal_size: u64) -> Result<()> {
+fn create_module_image(image: &str, image_size: u64) -> Result<()> {
     File::create(image)
         .context("Failed to create ext4 image file")?
         .set_len(image_size)
         .context("Failed to truncate ext4 image")?;
 
-    // format the img to ext4 filesystem
+    // format the img to ext4 filesystem without journal
     let result = Command::new("mkfs.ext4")
-        .arg("-J")
-        .arg(format!("size={journal_size}"))
-        .arg(image)
+        .args(["-O", "^has_journal", image])
         .stdout(Stdio::piped())
         .output()?;
     ensure!(
@@ -365,12 +363,11 @@ fn _install_module(zip: &str) -> Result<()> {
     );
 
     let sparse_image_size = 1 << 34; // 16GB
-    let journal_size = 64; // 64MB
     if !modules_img_exist && !modules_update_img_exist {
         // if no modules and modules_update, it is brand new installation, we should create a new img
         // create a tmp module img and mount it to modules_update
         info!("Creating brand new module image");
-        create_module_image(tmp_module_img, sparse_image_size, journal_size)?;
+        create_module_image(tmp_module_img, sparse_image_size)?;
     } else if modules_update_img_exist {
         // modules_update.img exists, we should use it as tmp img
         info!("Using existing modules_update.img as tmp image");
@@ -392,7 +389,7 @@ fn _install_module(zip: &str) -> Result<()> {
         // legacy image, it's block size is 1024 with unlimited journal size
         if blksize == 1024 {
             println!("- Legacy image, migrating to new format, please be patient...");
-            create_module_image(tmp_module_img, sparse_image_size, journal_size)?;
+            create_module_image(tmp_module_img, sparse_image_size)?;
             let _dontdrop =
                 mount::AutoMountExt4::try_new(tmp_module_img, module_update_tmp_dir, true)
                     .with_context(|| format!("Failed to mount {tmp_module_img}"))?;
@@ -459,6 +456,7 @@ fn _install_module(zip: &str) -> Result<()> {
         utils::copy_sparse_file(tmp_module_img, defs::MODULE_UPDATE_IMG, true)
             .with_context(|| "Failed to copy image.".to_string())?;
         let _ = std::fs::remove_file(tmp_module_img);
+        check_image(defs::MODULE_UPDATE_IMG)?;
     }
 
     mark_update()?;
@@ -520,6 +518,7 @@ where
         utils::copy_sparse_file(modules_update_tmp_img, defs::MODULE_UPDATE_IMG, true)
             .with_context(|| "Failed to copy image.".to_string())?;
         let _ = std::fs::remove_file(modules_update_tmp_img);
+        check_image(defs::MODULE_UPDATE_IMG)?;
     }
 
     mark_update()?;

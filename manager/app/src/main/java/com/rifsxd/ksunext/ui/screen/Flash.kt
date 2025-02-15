@@ -181,7 +181,7 @@ fun FlashScreen(navigator: DestinationsNavigator, flashIt: FlashIt) {
                         val date = format.format(Date())
                         val file = File(
                             Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS),
-                            "KernelSU_install_log_${date}.log"
+                            "KernelSU_Next_install_log_${date}.log"
                         )
                         file.writeText(logContent.toString())
                         snackBarHost.showSnackbar("Log saved to ${file.absolutePath}")
