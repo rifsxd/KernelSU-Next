@@ -108,10 +108,10 @@
     <string name="failed_to_update_app_profile">Cập nhật hồ sơ ứng dụng thất bại cho %s</string>
     <string name="require_kernel_version">Phiên bản KernelSU Next được nhúng trong kernel là %1$d và nó quá thấp để trình quản lý hoạt động. Vui lòng cập nhật lên phiên bản %2$d hoặc!</string>
     <string name="settings_umount_modules_default">Umount modules cho toàn hệ thống</string>
-    <string name="settings_umount_modules_default_summary">Giá trị mặc định chung cho \"Umount modules\" trong hồ sơ ứng dụng. Nếu bật, tất cả nhưng module có can thiệp/thay đổi hệ thống sẽ không đổi trừ khi được kích hoạt trong hồ sơ ứng dụng riêng biệt.</string>
+    <string name="settings_umount_modules_default_summary">Kích hoạt tính năng này sẽ tách các ứng dụng chưa cấp hồ sơ riêng và root (modder oem rom hoặc những người muốn chép file vào phân vùng hệ thống nên tắt).</string>
     <string name="settings_susfs_toggle">Ẩn kprobe hooks</string>
     <string name="settings_susfs_toggle_summary">Tính năng này sẽ vô hiệu hoá những kprobe hooks đã tạo bởi kernelsu và sẽ kích hoạt và nhúng những non-kprobe hooks,đảm bảo những kernel non-GKI(EOL) hoạt động ổn định.</string>
-    <string name="profile_umount_modules_summary">Kích hoạt tính năng này sẽ tách các ứng dụng chưa cấp hồ sơ riêng và root (modder oem rom hoặc những người muốn chép file vào phân vùng hệ thống nên tắt).</string>
+    <string name="profile_umount_modules_summary">Giá trị mặc định chung cho \"Umount modules\" trong hồ sơ ứng dụng. Nếu bật, tất cả nhưng module có can thiệp/thay đổi hệ thống sẽ không đổi trừ khi được kích hoạt trong hồ sơ ứng dụng riêng biệt.</string>
     <string name="profile_selinux_domain">Tên miền</string>
     <string name="profile_selinux_rules">Luật</string>
     <string name="module_update">Có cập nhật!</string>
