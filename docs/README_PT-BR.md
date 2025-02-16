@@ -24,7 +24,7 @@ KernelSU Next suporta oficialmente a maioria dos kernels Android a partir de 4.4
  - Os kernels GKI 1.0 (4.19 - 5.4) precisam ser reconstruídos com o driver KernelSU.
  - Os kernels EOL (<4.14) também precisam ser reconstruídos com o driver KernelSU (3.18+ é experimental e pode precisar portar algumas funções).
 
-Atualmente, apenas `arm64-v8a` é suportado.
+Atualmente, apenas a arquitetura `arm64-v8a` é compatível.
 
 ## Uso
 
@@ -55,9 +55,9 @@ Para obter informações sobre como relatar vulnerabilidades de segurança do Ke
 
 ## Créditos
 
-- [kernel-assisted-superuser](https://git.zx2c4.com/kernel-assisted-superuser/about/): a ideia do KernelSU.
-- [Magisk](https://github.com/topjohnwu/Magisk): a poderosa ferramenta root.
-- [genuine](https://github.com/brevent/genuine/): validação de assinatura apk v2.
-- [Diamorphine](https://github.com/m0nad/Diamorphine): algumas habilidades de rootkit.
-- [KernelSU](https://github.com/tiann/KernelSU): obrigado a tiann, ou então o KernelSU Next nem existiria.
+- [Kernel-Assisted Superuser](https://git.zx2c4.com/kernel-assisted-superuser/about/): A ideia do KernelSU.
+- [Magisk](https://github.com/topjohnwu/Magisk): A poderosa ferramenta root.
+- [genuine](https://github.com/brevent/genuine/): Validação de assinatura APK v2.
+- [Diamorphine](https://github.com/m0nad/Diamorphine): Algumas habilidades de rootkit.
+- [KernelSU](https://github.com/tiann/KernelSU): Obrigado ao tiann, ou então o KernelSU Next nem existiria.
 - [Magic Mount Port](https://github.com/5ec1cff/KernelSU/blob/main/userspace/ksud/src/magic_mount.rs): 💜 5ec1cff por salvar o KernelSU!

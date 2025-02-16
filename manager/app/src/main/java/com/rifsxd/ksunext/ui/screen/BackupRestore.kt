@@ -188,27 +188,45 @@ fun BackupRestoreScreen(navigator: DestinationsNavigator) {
                 )
             }
 
+            val prefs = context.getSharedPreferences("settings", Context.MODE_PRIVATE)
+
+            var useOverlayFs by rememberSaveable {
+                mutableStateOf(
+                    prefs.getBoolean("use_overlay_fs", false)
+                )
+            }
+
             val moduleRestore = stringResource(id = R.string.module_restore)
             val restoreMessage = stringResource(id = R.string.module_restore_message)
+
             ListItem(
                 leadingContent = {
                     Icon(
                         Icons.Filled.Restore,
-                        moduleRestore
+                        moduleRestore,
+                        tint = if (useOverlayFs) androidx.compose.material3.MaterialTheme.colorScheme.onSurface.copy(alpha = 0.38f) else androidx.compose.material3.MaterialTheme.colorScheme.onSurface
                     )
                 },
-                headlineContent = { Text(moduleRestore) },
-                modifier = Modifier.clickable {
-                    scope.launch {
-                        val result = restoreDialog.awaitConfirm(title = moduleRestore, content = restoreMessage)
-                        if (result == ConfirmResult.Confirmed) {
-                            loadingDialog.withLoading {
-                                moduleRestore()
-                                showRebootDialog = true
+                headlineContent = { 
+                    Text(
+                        moduleRestore,
+                        color = if (useOverlayFs) androidx.compose.material3.MaterialTheme.colorScheme.onSurface.copy(alpha = 0.38f) else androidx.compose.material3.MaterialTheme.colorScheme.onSurface
+                    ) 
+                },
+                modifier = Modifier.clickable(
+                    enabled = !useOverlayFs,
+                    onClick = {
+                        scope.launch {
+                            val result = restoreDialog.awaitConfirm(title = moduleRestore, content = restoreMessage)
+                            if (result == ConfirmResult.Confirmed) {
+                                loadingDialog.withLoading {
+                                    moduleRestore()
+                                    showRebootDialog = true
+                                }
                             }
                         }
                     }
-                }
+                )
             )
 
             HorizontalDivider(thickness = Dp.Hairline)

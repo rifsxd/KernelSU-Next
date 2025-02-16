@@ -41,9 +41,9 @@ KernelSU'daki güvenlik açıklarını bildirme hakkında bilgi için [SECURITY.
 
 ## Krediler
 
-- [kernel-assisted-superuser](https://git.zx2c4.com/kernel-assisted-superuser/about/): KernelSU fikri.
-- [Magisk](https://github.com/topjohnwu/Magisk): güçlü kök aracı.
-- [genuine](https://github.com/brevent/genuine/): apk v2 imza doğrulama.
-- [Diamorphine](https://github.com/m0nad/Diamorphine): bazı rootkit becerileri.
+- [Kernel-Assisted Superuser](https://git.zx2c4.com/kernel-assisted-superuser/about/): KernelSU fikri.
+- [Magisk](https://github.com/topjohnwu/Magisk): Güçlü kök aracı.
+- [genuine](https://github.com/brevent/genuine/): APK v2 imza doğrulama.
+- [Diamorphine](https://github.com/m0nad/Diamorphine): Bazı rootkit becerileri.
 - [KernelSU](https://github.com/tiann/KernelSU): tiann'a teşekkürler, yoksa KernelSU Next var olamazdı bile.
 - [Magic Mount Port](https://github.com/5ec1cff/KernelSU/blob/main/userspace/ksud/src/magic_mount.rs): 💜 5ec1cff KernelSU'yu kurtardığınız için!

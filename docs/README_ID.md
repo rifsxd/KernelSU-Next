@@ -41,9 +41,9 @@ Untuk informasi tentang melaporkan kerentanannya di KernelSU, lihat [SECURITY.md
 
 ## Kredit
 
-- [kernel-assisted-superuser](https://git.zx2c4.com/kernel-assisted-superuser/about/): ide KernelSU.
-- [Magisk](https://github.com/topjohnwu/Magisk): alat root yang kuat.
-- [genuine](https://github.com/brevent/genuine/): validasi tanda tangan apk v2.
-- [Diamorphine](https://github.com/m0nad/Diamorphine): beberapa keterampilan rootkit.
-- [KernelSU](https://github.com/tiann/KernelSU): terima kasih kepada tiann, jika tidak, KernelSU Next bahkan tidak akan ada.
+- [Kernel-Assisted Superuser](https://git.zx2c4.com/kernel-assisted-superuser/about/): Ide KernelSU.
+- [Magisk](https://github.com/topjohnwu/Magisk): Alat root yang kuat.
+- [genuine](https://github.com/brevent/genuine/): Validasi tanda tangan APK v2.
+- [Diamorphine](https://github.com/m0nad/Diamorphine): Beberapa keterampilan rootkit.
+- [KernelSU](https://github.com/tiann/KernelSU): Terima kasih kepada tiann, jika tidak, KernelSU Next bahkan tidak akan ada.
 - [Magic Mount Port](https://github.com/5ec1cff/KernelSU/blob/main/userspace/ksud/src/magic_mount.rs): 💜 5ec1cff karena menyelamatkan KernelSU!

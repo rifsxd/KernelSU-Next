@@ -4,7 +4,7 @@
 
 <img src="/assets/kernelsu_next.png" style="width: 96px;" alt="logo">
 
-基於內核的 Android 設備 root 解決方案
+基於內核的 Android 設備 Root 解決方案
 
 [![Latest Release](https://img.shields.io/github/v/release/rifsxd/KernelSU-Next?label=Release&logo=github)](https://github.com/rifsxd/KernelSU-Next/releases/latest)
 [![Nightly Release](https://img.shields.io/badge/Nightly%20Release-gray?logo=hackthebox&logoColor=fff)](https://nightly.link/rifsxd/KernelSU-Next/workflows/build-manager-ci/next/Manager)
@@ -13,7 +13,7 @@
 
 ## 特性
 
-1. 基於內核的 `su` 和 root 權限管理
+1. 基於內核的 `su` 和 Root 權限管理
 2. 基於動態掛載系統 [Magic Mount](https://topjohnwu.github.io/Magisk/details.html#magic-mount) / [OverlayFS](https://en.wikipedia.org/wiki/OverlayFS) 的模塊系統。
 3. [App Profile](https://kernelsu.org/zh_CN/guide/app-profile.html)：把 Root 權限關進籠子裡
 
@@ -41,9 +41,9 @@ KernelSU Next 正式支持大多數從 4.4 到 6.6 的 Android 內核
 
 ## 鳴謝
 
-- [kernel-assisted-superuser](https://git.zx2c4.com/kernel-assisted-superuser/about/): KernelSU 的靈感.
+- [Kernel-Assisted Superuser](https://git.zx2c4.com/kernel-assisted-superuser/about/): KernelSU 的靈感.
 - [Magisk](https://github.com/topjohnwu/Magisk): 強大的 Root 工具.
-- [genuine](https://github.com/brevent/genuine/): apk v2 簽名驗證。
+- [genuine](https://github.com/brevent/genuine/): APK v2 簽名驗證。
 - [Diamorphine](https://github.com/m0nad/Diamorphine): 一些 Rootkit 技巧。
 - [KernelSU](https://github.com/tiann/KernelSU): 感謝 tiann，否則 KernelSU Next 根本不會存在。
 - [Magic Mount Port](https://github.com/5ec1cff/KernelSU/blob/main/userspace/ksud/src/magic_mount.rs): 💜 5ec1cff 為了拯救 KernelSU！
