@@ -82,8 +82,13 @@
     <string name="module_restore">모듈 복원</string>
     <string name="module_restore_message">가장 최근의 백업으로부터 모듈을 복구합니다.</string>
     <string name="module_backup">모듈 백업</string>
+    <string name="backup_restore">백업 &amp; 복원</string>
     <string name="module_backup_message">현재 설치된 모듈들을 백업합니다.</string>
     <string name="warning">경고</string>
+    <string name="allowlist_restore">허용목록 복원</string>
+    <string name="allowlist_restore_message">최근 백업으로부터 허용목록 복원</string>
+    <string name="allowlist_backup">허용목록 백업</string>
+    <string name="allowlist_backup_message">현재 설정된 허용목록 백업</string>
     <string name="warning_message">이 기능은 아직 베타 단계이며 개발 중입니다. 계속하기 전에 모듈들을 백업해 놓으시기를 바랍니다. 위험를 이해한 경우에만 이 기능을 이용하세요. 주의하여 계속하세요.</string>
     <string name="proceed">계속</string>
     <string name="cancel">취소</string>
