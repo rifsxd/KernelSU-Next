@@ -34,7 +34,7 @@
     <string name="module_failed_to_disable">Falha ao desativar o módulo %s</string>
     <string name="module_empty">Nenhum módulo instalado</string>
     <string name="module">Módulo</string>
-    <string name="module_install_prompt_with_name">Deseja continuar instalando o módulo %1$s?</string>
+    <string name="module_install_prompt_with_name">Os seguintes módulos serão instalados: %1$s</string>
     <string name="module_sort_a_to_z">Ordenar (A-Z)</string>
     <string name="module_sort_z_to_a">Ordenar (Z-A)</string>
     <string name="uninstall">Desinstalar</string>
