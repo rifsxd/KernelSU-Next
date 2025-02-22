@@ -134,6 +134,7 @@
     <string name="force_stop_app">Forçar parada</string>
     <string name="restart_app">Reiniciar</string>
     <string name="failed_to_update_sepolicy">Falha ao atualizar as regras do SELinux para: %s</string>
+    <string name="su_not_allowed">O acesso de SuperUsuário não é permitido para: %s</string>
     <string name="module_changelog">Registro de alterações</string>
     <string name="settings_profile_template">Modelo do Perfil do Aplicativo</string>
     <string name="settings_profile_template_summary">Gerencie o modelo local e online do Perfil do Aplicativo.</string>
@@ -187,4 +188,6 @@
     <string name="save_log">Salvar registros</string>
     <string name="log_saved">Registros salvos</string>
     <string name="send_log">Compartilhar registros</string>
+    <string name="settings_disable_su">Desativar compatibilidade su</string>
+    <string name="settings_disable_su_summary">Desative temporariamente a capacidade de qualquer app obter privilégios root por meio do comando ⁠su (processos root existentes não serão afetados).</string>
 </resources>
