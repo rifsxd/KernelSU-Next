@@ -65,7 +65,7 @@
     <string name="safe_mode">Mode sécurité</string>
     <string name="reboot_to_apply">Redémarrer pour appliquer les changements</string>
     <string name="module_magisk_conflict">Les modules sont indisponibles en raison d\'un conflit avec Magisk!</string>
-    <string name="home_module_mount">Module système</string>
+    <string name="home_module_mount">Méthode de montage des modules</string>
     <string name="home_magic_mount">Magic Mount</string>
     <string name="home_overlayfs_mount">OverlayFS</string>
     <string name="unavailable">Indisponible</string>
