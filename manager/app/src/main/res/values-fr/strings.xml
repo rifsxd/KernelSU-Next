@@ -18,7 +18,7 @@
     <string name="home_module_count">Modules: %d</string>
     <string name="home_failure">Signature KernelSU Next v2 introuvable dans le kernel! [ !KSU_NEXT || != size/hash ]</string>
     <string name="home_failure_tip">Demandez au développeur de votre kernel d\'intégrer KernelSU Next!</string>
-    <string name="home_kernel">Version du kernel</string>
+    <string name="home_kernel">Version du noyau</string>
     <string name="home_susfs">SuSFS: %s</string>
     <string name="home_susfs_version">Version de SuSFS</string>
     <string name="home_susfs_sus_su">SuS SU</string>
