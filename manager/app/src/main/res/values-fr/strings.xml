@@ -110,7 +110,7 @@
     <string name="settings_umount_modules_default">Démonter les modules par défaut</string>
     <string name="settings_umount_modules_default_summary">Valeur globale par défaut pour \"Démonter les modules\" Dans le profil d\'application. Si activé, toutes les modifications systèmes effectuées par des modules seront annulées pour les applications n\'ayant pas de profil sélectionné.</string>
     <string name="settings_susfs_toggle">Cacher les hooks kprobe</string>
-    <string name="settings_susfs_toggle_summary">Désactive les hooks kprobe créés par KSU et, à la place, active les hooks non-kprobe intégrés, implémentant les mêmes fonctionnalités qui seraient appliquées à un kernel non-GKI, qui ne supportent krpobe.</string>
+    <string name="settings_susfs_toggle_summary">Désactive les hooks kprobe créés par KSU et, à la place, active les hooks non-kprobe intégrés, implémentant les mêmes fonctionnalités qui seraient appliquées à un kernel non-GKI, qui ne supportent pas les kprobes.</string>
     <string name="profile_umount_modules_summary">Activer cette option permettra à KernelSU Next de restaurer n\'importe quel fichier modifié par les modules pour cette app.</string>
     <string name="profile_selinux_domain">Domaine</string>
     <string name="profile_selinux_rules">Règles</string>
