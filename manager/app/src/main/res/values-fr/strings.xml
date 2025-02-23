@@ -23,10 +23,10 @@
     <string name="home_susfs_version">Version de SuSFS</string>
     <string name="home_susfs_sus_su">SuS SU</string>
     <string name="home_android">Version d\'Android</string>
-    <string name="home_manager_version">Version du manager</string>
+    <string name="home_manager_version">Version du gestionnaire</string>
     <string name="home_selinux_status">Statut SELinux</string>
     <string name="selinux_status_disabled">Désactivé</string>
-    <string name="selinux_status_enforcing">En vigueur</string>
+    <string name="selinux_status_enforcing">Appliqué</string>
     <string name="selinux_status_permissive">Permissif</string>
     <string name="selinux_status_unknown">Inconnu</string>
     <string name="superuser">SuperUtilisateur</string>
@@ -59,8 +59,8 @@
     <string name="module_author">Auteur</string>
     <string name="module_overlay_fs_not_available">Les modules sont indisponibles car OverlayFS est désactivé par le kernel.</string>
     <string name="refresh">Rafraîchir</string>
-    <string name="show_system_apps">Montrer les apps système</string>
-    <string name="hide_system_apps">Cacher les apps système</string>
+    <string name="show_system_apps">Montrer les applications système</string>
+    <string name="hide_system_apps">Cacher les applications système</string>
     <string name="export_log">Exporter les logs</string>
     <string name="safe_mode">Mode sécurité</string>
     <string name="reboot_to_apply">Redémarrer pour appliquer les changements</string>
