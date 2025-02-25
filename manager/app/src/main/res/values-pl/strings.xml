@@ -34,7 +34,7 @@
     <string name="module_failed_to_disable">Nie udało się wyłączyć modułu: %s</string>
     <string name="module_empty">Nie zainstalowano żadnych modułów</string>
     <string name="module">Moduły</string>
-    <string name="module_install_prompt_with_name">Zainstalować moduł %1$s?</string>
+    <string name="module_install_prompt_with_name">Następujące moduły zostaną zainstalowane: %1$s</string>
     <string name="module_sort_a_to_z">Sortuj (A-Z)</string>
     <string name="module_sort_z_to_a">Sortuj (Z-A)</string>
     <string name="uninstall">Odinstaluj</string>
@@ -57,6 +57,12 @@
     <string name="module_restore_failed">Nie można przywrócić: %s</string>
     <string name="module_version">Wersja</string>
     <string name="module_author">Autor</string>
+    <string name="module_id">ID</string>
+    <string name="module_version_code">Kod</string>
+    <string name="module_update_json">Aktualizuj Json</string>
+    <string name="module_update_json_empty">Pusty</string>
+    <string name="enable_developer_options">Włącz opcje programistyczne</string>
+    <string name="enable_developer_options_summary">Pokaż ukryte opcje tylko dla programistów.</string>
     <string name="module_overlay_fs_not_available">Moduły są niedostępne, ponieważ OverlayFS jest wyłączony przez jądro.</string>
     <string name="refresh">Odśwież</string>
     <string name="show_system_apps">Pokaż aplikacje systemowe</string>
@@ -75,8 +81,13 @@
     <string name="reboot_message">Zmiany zostaną zastosowane po restarcie. Uruchomić ponownie?</string>
     <string name="module_restore">Przywróć moduły</string>
     <string name="module_restore_message">Przywróć moduły z kopii zapasowej.</string>
+    <string name="backup_restore">Kopia zapasowa</string>
     <string name="module_backup">Kopia zapasowa modułów</string>
-    <string name="module_backup_message">Kopia zapasowa obecnie zainstalowanych modułów.</string>
+    <string name="module_backup_message">Utwórz kopię zapasową obecnie zainstalowanych modułów.</string>
+    <string name="allowlist_restore">Przywróć listę zgód</string>
+    <string name="allowlist_restore_message">Przywróć listę zgód z kopii zapasowej.</string>
+    <string name="allowlist_backup">Kopia zapasowa listy zgód</string>
+    <string name="allowlist_backup_message">Utwórz kopię zapasową listy zgód.</string>
     <string name="warning">Uwaga</string>
     <string name="warning_message">Ta funkcja jest dalej rozwijana. Upewnij się, że utworzyłeś kopię zapasową. Używaj tej opcji tylko, gdy rozumiesz ryzyko. Zachowaj ostrożność.</string>
     <string name="proceed">Dalej</string>
@@ -107,7 +118,7 @@
     <string name="profile_umount_modules">Odmontuj moduły</string>
     <string name="failed_to_update_app_profile">Nie udało się zaktualizować profilu aplikacji dla %s</string>
     <string name="require_kernel_version">Obecna wersja KernelSU Next %1$d jest za niska, aby manager działał prawidłowo. Zaktualizuj do wersji %2$d lub wyższej!</string>
-    <string name="settings_umount_modules_default">Domyślnie odmontuj moduły</string>
+    <string name="settings_umount_modules_default">Odmontuj moduły</string>
     <string name="settings_umount_modules_default_summary">Globalna wartość domyślna opcji \"Odmontuj moduły\" w profilu aplikacji. Jeśli jest włączona, wycofuje wszystkie modyfikacje dokonane przez moduły dla aplikacji, które nie mają ustawionego profilu.</string>
     <string name="settings_susfs_toggle">Ukryj kprobe hooks</string>
     <string name="settings_susfs_toggle_summary">Wyłącza kprobe hooks tworzone przez ksu i zastępuje je non-kprobe hooks, implementując tę ​​samą funkcjonalność, która byłaby zastosowana w jądrze non-GKI, które nie obsługuje kprobe.</string>
@@ -123,6 +134,7 @@
     <string name="force_stop_app">Wymuś zatrzymanie</string>
     <string name="restart_app">Restartuj</string>
     <string name="failed_to_update_sepolicy">Nie udało się zaktualizować reguł SELinux dla: %s</string>
+    <string name="su_not_allowed">Nie można przyznać praw root dla aplikacji: %s</string>
     <string name="module_changelog">Lista zmian</string>
     <string name="settings_profile_template">Szablon profilu aplikacji</string>
     <string name="settings_profile_template_summary">Zarządzaj lokalnym i internetowym szablonem profilu aplikacji</string>
@@ -176,4 +188,6 @@
     <string name="save_log">Zapisz logi</string>
     <string name="log_saved">Logi zapisane</string>
     <string name="send_log">Udostępnij logi</string>
+    <string name="settings_disable_su">Wyłącz polecenie su</string>
+    <string name="settings_disable_su_summary">Tymczasowo wyłącz możliwość uzyskania uprawnień roota przez dowolną aplikację za pomocą polecenia ⁠su (istniejące uprawnienia roota nie zostaną zmienione).</string>
 </resources>
