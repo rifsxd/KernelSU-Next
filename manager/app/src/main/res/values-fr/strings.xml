@@ -81,7 +81,7 @@
     <string name="module_backup">Sauvegarder les modules</string>
     <string name="module_backup_message">Sauvegarder les modules installés</string>
     <string name="allowlist_restore">Restorer la liste d\'autorisation</string>
-    <string name="allowlist_restore_message">Restorer la liste d\'autorisation d'une sauvegarde récente ?</string>
+    <string name="allowlist_restore_message">Restorer la liste d\'autorisation depuis sauvegarde récente ?</string>
     <string name="allowlist_backup">Sauvegarder la liste d\'autorisation</string>
     <string name="allowlist_backup_message">Sauvegarder la liste d\'autorisation actuelle ?</string>
     <string name="warning">Avertissement</string>
